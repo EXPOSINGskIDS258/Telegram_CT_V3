@@ -1,0 +1,20 @@
+{
+  "hardware_id": "5003d3413d4cb7f7712f962ae206d3e54f25197de24bc463418e42ef52cff9e0",
+  "activation_code": "rgs7rR6vGESPKsY3",
+  "validated": true,
+  "disclaimer_agreed": true,
+  "discord_username": "fudvul",
+  "activation_date": "2025-04-21T00:46:31.529694",
+  "system_info": {
+    "hardware_id": "5003d3413d4cb7f7712f962ae206d3e54f25197de24bc463418e42ef52cff9e0",
+    "hostname": "Jaabir",
+    "ip_address": "192.168.1.153",
+    "os": "Windows 10",
+    "username": "jaabi",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "timestamp": "2025-04-21 00:46:31",
+    "external_ip": "71.167.43.189"
+  },
+  "validation_date": "2025-04-21T00:46:40.780682"
+}

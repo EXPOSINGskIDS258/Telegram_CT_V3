@@ -1,0 +1,2407 @@
+2025-04-20 23:35:44,107 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-20 23:35:44,109 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-21 00:16:01,954 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-21 00:16:01,957 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-21 00:24:45,342 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-21 00:24:45,344 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-21 00:24:48,119 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-21 00:24:59,422 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-21 00:24:59,424 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-21 00:25:18,888 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-21 00:46:51,134 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-21 00:46:51,137 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-21 00:47:04,776 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-21 00:47:04,778 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:24:52,728 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:24:52,730 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:25:05,481 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:28:22,951 - INFO - Configuration saved to .env file
+2025-04-26 16:28:22,999 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-04-26 16:28:25,018 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-04-26 16:28:25,507 - INFO - Phone migrated to 1
+2025-04-26 16:28:25,616 - INFO - Reconnecting to new data center 1
+2025-04-26 16:28:25,723 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-04-26 16:28:25,725 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-04-26 16:28:25,726 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 16:28:27,067 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:28:40,787 - INFO - Telegram client initialized
+2025-04-26 16:28:48,831 - INFO - Wallet initialized: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 16:28:48,915 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-26 16:28:48,934 - INFO - Current SOL balance: 0.109061088 SOL
+2025-04-26 16:29:01,223 - INFO - Configuration saved to .env file
+2025-04-26 16:29:04,377 - INFO - Configuration saved to .env file
+2025-04-26 16:29:06,191 - INFO - Configuration saved to .env file
+2025-04-26 16:29:11,328 - INFO - Configuration saved to .env file
+2025-04-26 16:29:14,416 - INFO - Configuration saved to .env file
+2025-04-26 16:29:29,626 - INFO - Configuration saved to .env file
+2025-04-26 16:29:31,410 - INFO - Setting up Telegram monitoring...
+2025-04-26 16:29:31,412 - INFO - Fetching available groups and channels...
+2025-04-26 16:29:31,855 - INFO - 1. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 16:29:31,856 - INFO - 2. Quantum Courses (ID: -1002328886823)
+2025-04-26 16:29:31,857 - INFO - 3. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 16:29:31,858 - INFO - 4. Shinobi Signals (ID: -1001861246649)
+2025-04-26 16:29:31,858 - INFO - 5. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 16:29:31,859 - INFO - 6. Underdog Calls (ID: -1002478633703)
+2025-04-26 16:29:31,859 - INFO - 7. Underdogs degen (ID: -1002277274250)
+2025-04-26 16:29:31,860 - INFO - 8. Geppetto calls (ID: -1002381042005)
+2025-04-26 16:29:31,861 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-26 16:29:31,862 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 16:29:31,862 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 16:29:31,863 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 16:29:31,864 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 16:29:31,865 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 16:29:31,866 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 16:29:31,867 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 16:29:31,868 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 16:29:31,868 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 16:29:31,869 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 16:29:57,524 - ERROR - Please enter a number.
+2025-04-26 16:30:17,525 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 16:32:55,417 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:32:55,419 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:36:00,411 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:36:00,441 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 16:36:00,481 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:36:00,735 - INFO - Telegram client initialized
+2025-04-26 16:37:48,291 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:37:48,294 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:37:57,930 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:37:57,933 - INFO - Generated new wallet: DEDBHwKS2cLmqrAzZLzirDGaq5goP1ACQZfZtYToS1oj
+2025-04-26 16:43:12,095 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:43:12,097 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:44:06,619 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:44:16,623 - INFO - Wallet initialized: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 16:44:16,820 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-26 16:44:16,870 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 16:44:16,907 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:44:17,172 - INFO - Telegram client initialized
+2025-04-26 16:44:17,172 - INFO - Fetching available groups and channels...
+2025-04-26 16:44:17,509 - INFO - 1. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 16:44:17,510 - INFO - 2. Quantum Courses (ID: -1002328886823)
+2025-04-26 16:44:17,510 - INFO - 3. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 16:44:17,510 - INFO - 4. Shinobi Signals (ID: -1001861246649)
+2025-04-26 16:44:17,511 - INFO - 5. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 16:44:17,511 - INFO - 6. Underdog Calls (ID: -1002478633703)
+2025-04-26 16:44:17,512 - INFO - 7. Underdogs degen (ID: -1002277274250)
+2025-04-26 16:44:17,512 - INFO - 8. Geppetto calls (ID: -1002381042005)
+2025-04-26 16:44:17,512 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-26 16:44:17,512 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 16:44:17,513 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 16:44:17,513 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 16:44:17,513 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 16:44:17,513 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 16:44:17,514 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 16:44:17,514 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 16:44:17,514 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 16:44:17,515 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 16:44:17,515 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 16:44:26,133 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 16:46:24,815 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:46:24,817 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:48:27,218 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:48:27,232 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 16:48:27,311 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-26 16:48:27,324 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 16:48:27,366 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:48:27,613 - INFO - Telegram client initialized
+2025-04-26 16:48:27,613 - INFO - Fetching available groups and channels...
+2025-04-26 16:48:27,864 - INFO - 1. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 16:48:27,865 - INFO - 2. Quantum Courses (ID: -1002328886823)
+2025-04-26 16:48:27,865 - INFO - 3. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 16:48:27,865 - INFO - 4. Shinobi Signals (ID: -1001861246649)
+2025-04-26 16:48:27,866 - INFO - 5. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 16:48:27,866 - INFO - 6. Underdog Calls (ID: -1002478633703)
+2025-04-26 16:48:27,866 - INFO - 7. Underdogs degen (ID: -1002277274250)
+2025-04-26 16:48:27,866 - INFO - 8. Geppetto calls (ID: -1002381042005)
+2025-04-26 16:48:27,867 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-26 16:48:27,867 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 16:48:27,867 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 16:48:27,867 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 16:48:27,868 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 16:48:27,868 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 16:48:27,868 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 16:48:27,868 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 16:48:27,869 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 16:48:27,869 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 16:48:27,869 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 16:48:30,578 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 16:48:30,580 - INFO - Set up message handler for chat: underdogs degen
+2025-04-26 16:48:30,580 - INFO - ==================================================
+2025-04-26 16:48:30,581 - INFO - MONITORING STARTED
+2025-04-26 16:48:30,581 - INFO - Group: underdogs degen
+2025-04-26 16:48:30,582 - INFO - Auto-buy amount: 0.01 SOL per token
+2025-04-26 16:48:30,582 - INFO - Priority Fee: auto
+2025-04-26 16:48:30,582 - INFO - Exit Strategy: FULL_TP
+2025-04-26 16:48:30,583 - INFO - Auto-sell: Enabled
+2025-04-26 16:48:30,583 - INFO - ==================================================
+2025-04-26 16:48:30,584 - INFO - Press Ctrl+C to stop the bot
+2025-04-26 16:48:47,665 - INFO - Disconnecting from Telegram...
+2025-04-26 16:48:47,665 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-26 16:48:47,666 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:48:47,671 - INFO - No active price tracking
+2025-04-26 16:48:47,671 - INFO - Bot shutdown complete.
+2025-04-26 16:49:10,550 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 16:49:10,552 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 16:49:17,276 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 16:49:17,277 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 16:49:17,688 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-26 16:49:17,690 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 16:49:17,731 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 16:49:17,980 - INFO - Telegram client initialized
+2025-04-26 16:49:17,980 - INFO - Fetching available groups and channels...
+2025-04-26 16:49:18,187 - INFO - 1. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 16:49:18,187 - INFO - 2. Quantum Courses (ID: -1002328886823)
+2025-04-26 16:49:18,187 - INFO - 3. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 16:49:18,187 - INFO - 4. Shinobi Signals (ID: -1001861246649)
+2025-04-26 16:49:18,188 - INFO - 5. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 16:49:18,188 - INFO - 6. Underdog Calls (ID: -1002478633703)
+2025-04-26 16:49:18,188 - INFO - 7. Underdogs degen (ID: -1002277274250)
+2025-04-26 16:49:18,188 - INFO - 8. Geppetto calls (ID: -1002381042005)
+2025-04-26 16:49:18,188 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-26 16:49:18,188 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 16:49:18,189 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 16:49:18,189 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 16:49:18,189 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 16:49:18,189 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 16:49:18,189 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 16:49:18,189 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 16:49:18,190 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 16:49:18,190 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 16:49:18,190 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 16:49:22,403 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 16:49:22,403 - INFO - Set up message handler for chat: underdogs degen
+2025-04-26 16:49:22,404 - INFO - ==================================================
+2025-04-26 16:49:22,404 - INFO - MONITORING STARTED
+2025-04-26 16:49:22,404 - INFO - Group: underdogs degen
+2025-04-26 16:49:22,404 - INFO - Auto-buy amount: 0.01 SOL per token
+2025-04-26 16:49:22,404 - INFO - Priority Fee: auto
+2025-04-26 16:49:22,404 - INFO - Exit Strategy: FULL_TP
+2025-04-26 16:49:22,405 - INFO - Auto-sell: Enabled
+2025-04-26 16:49:22,405 - INFO - ==================================================
+2025-04-26 16:49:22,405 - INFO - Press Ctrl+C to stop the bot
+2025-04-26 16:49:25,816 - INFO - No active price tracking
+2025-04-26 17:08:24,721 - INFO - Disconnecting from Telegram...
+2025-04-26 17:08:24,729 - WARNING - Server sent a very old message with ID 7497726858660703233, ignoring (see FAQ for details)
+2025-04-26 17:08:24,730 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-26 17:08:24,731 - INFO - Connection closed while sending data
+2025-04-26 17:08:24,732 - WARNING - Server sent a very old message with ID 7497726863118213121, ignoring (see FAQ for details)
+2025-04-26 17:08:24,733 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-26 17:08:24,739 - INFO - No active price tracking
+2025-04-26 17:08:24,740 - INFO - Bot shutdown complete.
+2025-04-26 17:12:20,961 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 17:12:20,963 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 17:19:44,686 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 17:19:44,686 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 17:24:20,234 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 17:24:20,236 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 21:47:59,966 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 21:47:59,968 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 22:01:09,699 - INFO - Solana client initialized with RPC: https://api.mainnet-beta.solana.com
+2025-04-26 22:01:09,706 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 22:01:09,766 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-26 22:01:09,791 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 22:01:09,825 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 22:01:10,048 - INFO - Telegram client initialized
+2025-04-26 22:01:10,048 - INFO - Fetching available groups and channels...
+2025-04-26 22:01:10,394 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-26 22:01:10,395 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 22:01:10,395 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-26 22:01:10,396 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 22:01:10,396 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-26 22:01:10,396 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-26 22:01:10,397 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-26 22:01:10,397 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 22:01:10,398 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-26 22:01:10,398 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 22:01:10,398 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 22:01:10,398 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 22:01:10,399 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 22:01:10,400 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 22:01:10,401 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 22:01:10,401 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 22:01:10,402 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 22:01:10,402 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 22:01:10,402 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 22:01:13,437 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 22:01:13,437 - INFO - Set up message handler for chat: underdogs degen
+2025-04-26 22:01:13,438 - INFO - ==================================================
+2025-04-26 22:01:13,438 - INFO - MONITORING STARTED
+2025-04-26 22:01:13,439 - INFO - Group: underdogs degen
+2025-04-26 22:01:13,439 - INFO - Auto-buy amount: 0.01 SOL per token
+2025-04-26 22:01:13,439 - INFO - Priority Fee: auto
+2025-04-26 22:01:13,440 - INFO - Exit Strategy: FULL_TP
+2025-04-26 22:01:13,440 - INFO - Auto-sell: Enabled
+2025-04-26 22:01:13,441 - INFO - ==================================================
+2025-04-26 22:01:13,441 - INFO - Press Ctrl+C to stop the bot
+2025-04-26 23:26:22,744 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 23:26:22,747 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 23:27:10,380 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-26 23:27:10,389 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 23:27:10,549 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 23:27:10,584 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:27:10,811 - INFO - Telegram client initialized
+2025-04-26 23:27:10,814 - INFO - Fetching available groups and channels...
+2025-04-26 23:27:11,098 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-26 23:27:11,099 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 23:27:11,100 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-26 23:27:11,100 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 23:27:11,100 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-26 23:27:11,101 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-26 23:27:11,101 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-26 23:27:11,101 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 23:27:11,101 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-26 23:27:11,101 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 23:27:11,101 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 23:27:11,102 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 23:27:11,102 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 23:27:11,102 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 23:27:11,103 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 23:27:11,103 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 23:27:11,104 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 23:27:11,104 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 23:27:11,104 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 23:28:34,129 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-26 23:30:21,124 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 23:30:21,125 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 23:30:31,868 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-26 23:30:31,872 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 23:30:31,886 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 23:30:31,920 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:30:32,130 - INFO - Telegram client initialized
+2025-04-26 23:30:32,132 - INFO - Fetching available groups and channels...
+2025-04-26 23:30:32,336 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-26 23:30:32,336 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 23:30:32,337 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-26 23:30:32,337 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 23:30:32,337 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-26 23:30:32,338 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-26 23:30:32,338 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-26 23:30:32,338 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 23:30:32,338 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-26 23:30:32,338 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 23:30:32,339 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 23:30:32,339 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 23:30:32,339 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 23:30:32,340 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 23:30:32,340 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 23:30:32,340 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 23:30:32,340 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 23:30:32,341 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 23:30:32,341 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 23:30:35,007 - INFO - Monitoring messages from: underdogs degen (ID: -1002297631019)
+2025-04-26 23:30:35,010 - INFO - Set up message handler for chat: underdogs degen
+2025-04-26 23:31:28,247 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 23:31:28,249 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 23:31:37,226 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-26 23:31:37,230 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 23:31:37,252 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 23:31:37,286 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:31:37,514 - INFO - Telegram client initialized
+2025-04-26 23:31:37,516 - INFO - Fetching available groups and channels...
+2025-04-26 23:31:37,716 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-26 23:31:37,717 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 23:31:37,720 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-26 23:31:37,720 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 23:31:37,720 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-26 23:31:37,721 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-26 23:31:37,721 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-26 23:31:37,721 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 23:31:37,721 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-26 23:31:37,721 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 23:31:37,722 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 23:31:37,722 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 23:31:37,722 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 23:31:37,723 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 23:31:37,723 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 23:31:37,723 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 23:31:37,723 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 23:31:37,724 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 23:31:37,724 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 23:31:40,182 - INFO - Monitoring messages from: Unique Side. (ID: -1002440656833)
+2025-04-26 23:31:40,185 - INFO - Set up message handler for chat: Unique Side.
+2025-04-26 23:36:47,737 - ERROR - Error in menu: Cannot run the event loop while another loop is running
+2025-04-26 23:37:30,443 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-26 23:37:30,444 - ERROR - Error in menu: 
+2025-04-26 23:37:30,446 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-26 23:37:30,447 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:41:30,570 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-26 23:41:30,572 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-26 23:41:39,175 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-26 23:41:39,181 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-26 23:41:39,195 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-26 23:41:39,229 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:41:39,433 - INFO - Telegram client initialized
+2025-04-26 23:41:39,433 - INFO - Fetching available groups and channels...
+2025-04-26 23:41:39,648 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-26 23:41:39,649 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-26 23:41:39,650 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-26 23:41:39,650 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-26 23:41:39,650 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-26 23:41:39,651 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-26 23:41:39,651 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-26 23:41:39,651 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-26 23:41:39,652 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-26 23:41:39,652 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-26 23:41:39,652 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-26 23:41:39,653 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-26 23:41:39,653 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-26 23:41:39,653 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-26 23:41:39,653 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-26 23:41:39,653 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-26 23:41:39,653 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-26 23:41:39,654 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-26 23:41:39,654 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-26 23:41:44,510 - INFO - Monitoring messages from: Underdog Calls Private (ID: -1002209371269)
+2025-04-26 23:41:44,512 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-26 23:42:00,049 - INFO - BUYING TOKEN
+2025-04-26 23:42:00,049 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-26 23:42:00,049 - INFO - Amount: 0.005 SOL
+2025-04-26 23:42:00,050 - INFO - Slippage: 1.5%
+2025-04-26 23:42:00,050 - INFO - Priority Fee: auto
+2025-04-26 23:42:00,050 - INFO - ------------------------------
+2025-04-26 23:42:00,052 - ERROR - Error in menu: Cannot run the event loop while another loop is running
+2025-04-26 23:42:33,832 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-26 23:42:33,833 - ERROR - Error in menu: 
+2025-04-26 23:42:33,836 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-26 23:42:33,837 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-26 23:58:49,887 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-26 23:58:49,898 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:00:43,307 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 00:00:43,309 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 00:00:45,250 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-27 00:00:45,251 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:00:45,327 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:00:45,346 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:02:57,088 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-27 00:02:57,089 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:02:57,141 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:02:57,152 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:05:08,584 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-27 00:05:08,586 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:05:08,641 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:05:08,642 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:05:08,644 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-27 00:05:08,644 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-27 00:05:08,746 - INFO - Quote API response time: 102.48ms
+2025-04-27 00:05:08,746 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:05:08,746 - INFO - Impact: 0.00022181865567145873%
+2025-04-27 00:05:08,747 - INFO - Preparing transaction...
+2025-04-27 00:05:08,842 - INFO - Transaction prep time: 94.67ms
+2025-04-27 00:05:08,842 - INFO - Signing...
+2025-04-27 00:05:08,848 - INFO - Transaction signing time: 5.86ms
+2025-04-27 00:05:08,849 - INFO - Sending to network...
+2025-04-27 00:05:08,849 - ERROR - Error sending transaction: 'Client' object has no attribute 'get_best_client'
+2025-04-27 00:05:08,849 - INFO - Retrying after transaction error... (1/2)
+2025-04-27 00:05:10,350 - INFO - Getting price quote... (Attempt 2/3, Slippage: 2.25%)
+2025-04-27 00:05:10,397 - INFO - Quote API response time: 45.87ms
+2025-04-27 00:05:10,397 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:05:10,397 - INFO - Impact: 0.0%
+2025-04-27 00:05:10,398 - INFO - Preparing transaction...
+2025-04-27 00:05:10,476 - INFO - Transaction prep time: 78.08ms
+2025-04-27 00:05:10,477 - INFO - Signing...
+2025-04-27 00:05:10,477 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:05:10,477 - INFO - Sending to network...
+2025-04-27 00:05:10,478 - ERROR - Error sending transaction: 'Client' object has no attribute 'get_best_client'
+2025-04-27 00:05:10,478 - INFO - Retrying after transaction error... (2/2)
+2025-04-27 00:05:11,980 - INFO - Getting price quote... (Attempt 3/3, Slippage: 3.00%)
+2025-04-27 00:05:12,037 - INFO - Quote API response time: 57.58ms
+2025-04-27 00:05:12,037 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:05:12,038 - INFO - Impact: 0.0%
+2025-04-27 00:05:12,038 - INFO - Preparing transaction...
+2025-04-27 00:05:12,124 - INFO - Transaction prep time: 85.89ms
+2025-04-27 00:05:12,124 - INFO - Signing...
+2025-04-27 00:05:12,124 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:05:12,124 - INFO - Sending to network...
+2025-04-27 00:05:12,125 - ERROR - Error sending transaction: 'Client' object has no attribute 'get_best_client'
+2025-04-27 00:13:37,277 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-27 00:13:37,278 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:13:37,330 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:37,333 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-27 00:13:37,345 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:37,346 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-27 00:13:37,458 - INFO - Quote API response time: 111.27ms
+2025-04-27 00:13:37,458 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:13:37,459 - INFO - Impact: 0.0016357125170608502%
+2025-04-27 00:13:37,459 - INFO - Preparing transaction...
+2025-04-27 00:13:37,543 - INFO - Transaction prep time: 83.94ms
+2025-04-27 00:13:37,543 - INFO - Signing...
+2025-04-27 00:13:37,544 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:13:37,544 - INFO - Sending to network...
+2025-04-27 00:13:37,567 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:37,579 - ERROR - Error sending transaction: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: Blockhash not found", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(BlockhashNotFound), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-04-27 00:13:37,581 - INFO - Retrying after transaction error... (1/2)
+2025-04-27 00:13:39,081 - INFO - Getting price quote... (Attempt 2/3, Slippage: 2.25%)
+2025-04-27 00:13:39,132 - INFO - Quote API response time: 49.78ms
+2025-04-27 00:13:39,133 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:13:39,134 - INFO - Impact: 0.0009561311954992968%
+2025-04-27 00:13:39,134 - INFO - Preparing transaction...
+2025-04-27 00:13:39,216 - INFO - Transaction prep time: 81.01ms
+2025-04-27 00:13:39,217 - INFO - Signing...
+2025-04-27 00:13:39,218 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:13:39,219 - INFO - Sending to network...
+2025-04-27 00:13:39,239 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,247 - INFO - Transaction send time: 27.33ms
+2025-04-27 00:13:39,248 - INFO - Sent: 4j3dJvM5NFkBwaR5HNSdK2cNUuYuuEk1nDrYgMTRNmrAVqSRCWad2XQk5JSodEnFauCriyPQT2Ap1FFJ94MzQDkp
+2025-04-27 00:13:39,249 - INFO - --------------------------------------------------
+2025-04-27 00:13:39,250 - INFO - CONFIRMING TRANSACTION...
+2025-04-27 00:13:39,250 - INFO - ID: 4j3dJvM5NFkBwaR5HNSdK2cNUuYuuEk1nDrYgMTRNmrAVqSRCWad2XQk5JSodEnFauCriyPQT2Ap1FFJ94MzQDkp
+2025-04-27 00:13:39,251 - INFO - Check interval: 0.05 seconds
+2025-04-27 00:13:39,252 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-27 00:13:39,294 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,296 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,323 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,400 - INFO - Check 2/10... (Elapsed: 0.15s)
+2025-04-27 00:13:39,420 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,425 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,444 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,517 - INFO - Check 3/10... (Elapsed: 0.27s)
+2025-04-27 00:13:39,537 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,539 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,552 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:39,635 - INFO - Check 4/10... (Elapsed: 0.38s)
+2025-04-27 00:13:39,672 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,695 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,705 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:39,799 - INFO - Check 5/10... (Elapsed: 0.55s)
+2025-04-27 00:13:39,860 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,882 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:39,893 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:39,997 - INFO - Check 6/10... (Elapsed: 0.74s)
+2025-04-27 00:13:40,005 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,027 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,064 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,178 - INFO - Check 7/10... (Elapsed: 0.93s)
+2025-04-27 00:13:40,207 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,208 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,240 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,365 - INFO - Check 8/10... (Elapsed: 1.11s)
+2025-04-27 00:13:40,394 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,396 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,423 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,556 - INFO - Check 9/10... (Elapsed: 1.30s)
+2025-04-27 00:13:40,583 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,585 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,633 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,775 - INFO - Check 10/10... (Elapsed: 1.52s)
+2025-04-27 00:13:40,806 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,820 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,850 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:40,852 - WARNING - --------------------------------------------------
+2025-04-27 00:13:40,852 - WARNING - Timeout waiting for confirmation after 1.600 seconds
+2025-04-27 00:13:40,853 - WARNING - Maximum retries (10) reached
+2025-04-27 00:13:40,854 - WARNING - --------------------------------------------------
+2025-04-27 00:13:40,855 - WARNING - Swap may have failed or is still pending.
+2025-04-27 00:13:40,855 - INFO - Retrying with increased parameters...
+2025-04-27 00:13:42,356 - INFO - Getting price quote... (Attempt 3/3, Slippage: 4.50%)
+2025-04-27 00:13:42,412 - INFO - Quote API response time: 56.27ms
+2025-04-27 00:13:42,412 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:13:42,412 - INFO - Impact: 0.00127069131091767%
+2025-04-27 00:13:42,413 - INFO - Preparing transaction...
+2025-04-27 00:13:42,500 - INFO - Transaction prep time: 86.86ms
+2025-04-27 00:13:42,501 - INFO - Signing...
+2025-04-27 00:13:42,501 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:13:42,501 - INFO - Sending to network...
+2025-04-27 00:13:42,559 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:13:42,560 - INFO - Transaction send time: 59.54ms
+2025-04-27 00:13:42,560 - INFO - Sent: 2pdM4W3BTkcZL8UvXPMPuoudof6MUXAEyG7nqvMhxonU615ncsyxv6Tg5BNPLc9uvxxh9YnDR2cBBwt2iDBbJ559
+2025-04-27 00:13:42,561 - INFO - --------------------------------------------------
+2025-04-27 00:13:42,561 - INFO - CONFIRMING TRANSACTION...
+2025-04-27 00:13:42,561 - INFO - ID: 2pdM4W3BTkcZL8UvXPMPuoudof6MUXAEyG7nqvMhxonU615ncsyxv6Tg5BNPLc9uvxxh9YnDR2cBBwt2iDBbJ559
+2025-04-27 00:13:42,562 - INFO - Check interval: 0.05 seconds
+2025-04-27 00:13:42,562 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-27 00:13:42,570 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,588 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,622 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,687 - INFO - Check 2/10... (Elapsed: 0.12s)
+2025-04-27 00:13:42,713 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,714 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,756 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,828 - INFO - Check 3/10... (Elapsed: 0.27s)
+2025-04-27 00:13:42,856 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,858 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,889 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:42,973 - INFO - Check 4/10... (Elapsed: 0.41s)
+2025-04-27 00:13:43,001 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,011 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,045 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,140 - INFO - Check 5/10... (Elapsed: 0.58s)
+2025-04-27 00:13:43,173 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,174 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,210 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,314 - INFO - Check 6/10... (Elapsed: 0.75s)
+2025-04-27 00:13:43,349 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,350 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,399 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,513 - INFO - Check 7/10... (Elapsed: 0.95s)
+2025-04-27 00:13:43,542 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,543 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,581 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,703 - INFO - Check 8/10... (Elapsed: 1.14s)
+2025-04-27 00:13:43,734 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,736 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,770 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,902 - INFO - Check 9/10... (Elapsed: 1.34s)
+2025-04-27 00:13:43,929 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,930 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:43,959 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:44,101 - INFO - Check 10/10... (Elapsed: 1.54s)
+2025-04-27 00:13:44,128 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:44,129 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:44,162 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:13:44,173 - WARNING - --------------------------------------------------
+2025-04-27 00:13:44,175 - WARNING - Timeout waiting for confirmation after 1.611 seconds
+2025-04-27 00:13:44,176 - WARNING - Maximum retries (10) reached
+2025-04-27 00:13:44,176 - WARNING - --------------------------------------------------
+2025-04-27 00:13:44,178 - WARNING - Swap may have failed or is still pending.
+2025-04-27 00:15:29,887 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 00:15:29,888 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 00:15:56,904 - INFO - Configuration saved to .env file
+2025-04-27 00:15:58,444 - INFO - Solana clients initialized with primary RPC: https://api.mainnet-beta.solana.com
+2025-04-27 00:16:18,133 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 00:16:18,134 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 00:16:35,280 - INFO - Configuration saved to .env file
+2025-04-27 00:16:36,524 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-27 00:16:56,390 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 00:16:56,390 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 00:17:13,205 - INFO - Configuration saved to .env file
+2025-04-27 00:17:14,525 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-27 00:17:35,969 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-27 00:18:29,010 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 00:18:29,014 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 00:18:38,180 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-27 00:18:38,185 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:18:38,228 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-27 00:18:38,259 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-27 00:18:38,481 - INFO - Telegram client initialized
+2025-04-27 00:18:38,484 - INFO - Fetching available groups and channels...
+2025-04-27 00:18:38,742 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-27 00:18:38,743 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-27 00:18:38,743 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-27 00:18:38,744 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-27 00:18:38,744 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-27 00:18:38,745 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-27 00:18:38,745 - INFO - 7. Shinobi Signals (ID: -1001861246649)
+2025-04-27 00:18:38,745 - INFO - 8. Sams Insider Calls (ID: -1002127539393)
+2025-04-27 00:18:38,746 - INFO - 9. Geppetto calls (ID: -1002381042005)
+2025-04-27 00:18:38,746 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-27 00:18:38,747 - INFO - 11. Coby Calls * (ID: -1002339192565)
+2025-04-27 00:18:38,747 - INFO - 12. Redemption Academy (ID: -1001442804317)
+2025-04-27 00:18:38,747 - INFO - 13. Exposing SKids (ID: -1002586454573)
+2025-04-27 00:18:38,748 - INFO - 14. Exposing SKids (ID: -1002434103215)
+2025-04-27 00:18:38,748 - INFO - 15. Mercury Solana Calls (ID: -1002024643864)
+2025-04-27 00:18:38,749 - INFO - 16. Trading With UJ* (ID: -1002403542315)
+2025-04-27 00:18:38,749 - INFO - 17. Unique Side. (ID: -1002440656833)
+2025-04-27 00:18:38,750 - INFO - 18. BT Newbie Club (ID: -1002052886706)
+2025-04-27 00:18:38,750 - INFO - 19. BobTMM (ID: -1002447939682)
+2025-04-27 00:18:59,633 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-27 00:18:59,635 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 00:18:59,701 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:18:59,705 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-27 00:18:59,705 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-27 00:18:59,741 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:18:59,803 - INFO - Quote API response time: 96.62ms
+2025-04-27 00:18:59,804 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:18:59,805 - INFO - Impact: 0.0007181337373961526%
+2025-04-27 00:18:59,805 - INFO - Preparing transaction...
+2025-04-27 00:18:59,863 - INFO - Transaction prep time: 56.61ms
+2025-04-27 00:18:59,864 - INFO - Signing...
+2025-04-27 00:18:59,867 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:18:59,868 - INFO - Sending to network...
+2025-04-27 00:18:59,925 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:18:59,927 - INFO - Transaction send time: 58.56ms
+2025-04-27 00:18:59,928 - INFO - Sent: 24wf2tusjZR5MJTs4ScRfvm6cVR2nUsj6MevLzctqtjFshcXnEqf49qR2Y9ZM1Y7JpWePKFewzajLNhRe4ys9Zz2
+2025-04-27 00:18:59,928 - INFO - --------------------------------------------------
+2025-04-27 00:18:59,928 - INFO - CONFIRMING TRANSACTION...
+2025-04-27 00:18:59,928 - INFO - ID: 24wf2tusjZR5MJTs4ScRfvm6cVR2nUsj6MevLzctqtjFshcXnEqf49qR2Y9ZM1Y7JpWePKFewzajLNhRe4ys9Zz2
+2025-04-27 00:18:59,929 - INFO - Check interval: 0.05 seconds
+2025-04-27 00:18:59,929 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-27 00:18:59,947 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:18:59,973 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,029 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,092 - INFO - Check 2/10... (Elapsed: 0.16s)
+2025-04-27 00:19:00,137 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,163 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,225 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,298 - INFO - Check 3/10... (Elapsed: 0.37s)
+2025-04-27 00:19:00,314 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,337 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,402 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,484 - INFO - Check 4/10... (Elapsed: 0.56s)
+2025-04-27 00:19:00,505 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,523 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,576 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,671 - INFO - Check 5/10... (Elapsed: 0.74s)
+2025-04-27 00:19:00,687 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,713 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,767 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,870 - INFO - Check 6/10... (Elapsed: 0.94s)
+2025-04-27 00:19:00,900 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,907 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:00,970 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,084 - INFO - Check 7/10... (Elapsed: 1.15s)
+2025-04-27 00:19:01,120 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,123 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,182 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,305 - INFO - Check 8/10... (Elapsed: 1.38s)
+2025-04-27 00:19:01,323 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,343 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,403 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,535 - INFO - Check 9/10... (Elapsed: 1.61s)
+2025-04-27 00:19:01,554 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,555 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:01,576 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:01,719 - INFO - Check 10/10... (Elapsed: 1.79s)
+2025-04-27 00:19:01,735 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:01,738 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-04-27 00:19:01,756 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:01,758 - WARNING - --------------------------------------------------
+2025-04-27 00:19:01,758 - WARNING - Timeout waiting for confirmation after 1.829 seconds
+2025-04-27 00:19:01,758 - WARNING - Maximum retries (10) reached
+2025-04-27 00:19:01,759 - WARNING - --------------------------------------------------
+2025-04-27 00:19:01,759 - WARNING - Swap may have failed or is still pending.
+2025-04-27 00:19:01,759 - INFO - Retrying with increased parameters...
+2025-04-27 00:19:03,260 - INFO - Getting price quote... (Attempt 2/3, Slippage: 3.38%)
+2025-04-27 00:19:03,297 - INFO - Quote API response time: 37.09ms
+2025-04-27 00:19:03,298 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:19:03,298 - INFO - Impact: 0.0007181337373961526%
+2025-04-27 00:19:03,298 - INFO - Preparing transaction...
+2025-04-27 00:19:03,346 - INFO - Transaction prep time: 47.83ms
+2025-04-27 00:19:03,346 - INFO - Signing...
+2025-04-27 00:19:03,347 - INFO - Transaction signing time: 0.97ms
+2025-04-27 00:19:03,347 - INFO - Sending to network...
+2025-04-27 00:19:03,383 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:03,385 - INFO - Transaction send time: 37.61ms
+2025-04-27 00:19:03,385 - INFO - Sent: 5PiRQg5hPnujxfzcg1fXmmddv2xfqQstKUxditZ5CHdpRfWuCpkDcoLpVoVT4Bi6KtN2wSeZRpPdRBxwztoTDz7m
+2025-04-27 00:19:03,386 - INFO - --------------------------------------------------
+2025-04-27 00:19:03,386 - INFO - CONFIRMING TRANSACTION...
+2025-04-27 00:19:03,386 - INFO - ID: 5PiRQg5hPnujxfzcg1fXmmddv2xfqQstKUxditZ5CHdpRfWuCpkDcoLpVoVT4Bi6KtN2wSeZRpPdRBxwztoTDz7m
+2025-04-27 00:19:03,387 - INFO - Check interval: 0.05 seconds
+2025-04-27 00:19:03,387 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-27 00:19:03,395 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,403 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,422 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,485 - INFO - Check 2/10... (Elapsed: 0.10s)
+2025-04-27 00:19:03,503 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,517 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,534 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,606 - INFO - Check 3/10... (Elapsed: 0.22s)
+2025-04-27 00:19:03,626 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,634 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,650 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,733 - INFO - Check 4/10... (Elapsed: 0.35s)
+2025-04-27 00:19:03,748 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,758 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,777 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,871 - INFO - Check 5/10... (Elapsed: 0.48s)
+2025-04-27 00:19:03,886 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,899 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:03,913 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,017 - INFO - Check 6/10... (Elapsed: 0.63s)
+2025-04-27 00:19:04,031 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,044 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,061 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,174 - INFO - Check 7/10... (Elapsed: 0.79s)
+2025-04-27 00:19:04,192 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,200 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,218 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,342 - INFO - Check 8/10... (Elapsed: 0.95s)
+2025-04-27 00:19:04,356 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,368 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,387 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,519 - INFO - Check 9/10... (Elapsed: 1.13s)
+2025-04-27 00:19:04,537 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,555 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,571 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,713 - INFO - Check 10/10... (Elapsed: 1.33s)
+2025-04-27 00:19:04,729 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,751 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,766 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:04,770 - WARNING - --------------------------------------------------
+2025-04-27 00:19:04,770 - WARNING - Timeout waiting for confirmation after 1.383 seconds
+2025-04-27 00:19:04,771 - WARNING - Maximum retries (10) reached
+2025-04-27 00:19:04,771 - WARNING - --------------------------------------------------
+2025-04-27 00:19:04,771 - WARNING - Swap may have failed or is still pending.
+2025-04-27 00:19:04,771 - INFO - Retrying with increased parameters...
+2025-04-27 00:19:06,273 - INFO - Getting price quote... (Attempt 3/3, Slippage: 6.75%)
+2025-04-27 00:19:06,314 - INFO - Quote API response time: 41.75ms
+2025-04-27 00:19:06,314 - INFO - Quote: 0.005000 -> 0.000048
+2025-04-27 00:19:06,315 - INFO - Impact: 0.00127767080097308%
+2025-04-27 00:19:06,315 - INFO - Preparing transaction...
+2025-04-27 00:19:06,362 - INFO - Transaction prep time: 45.87ms
+2025-04-27 00:19:06,362 - INFO - Signing...
+2025-04-27 00:19:06,363 - INFO - Transaction signing time: 0.00ms
+2025-04-27 00:19:06,363 - INFO - Sending to network...
+2025-04-27 00:19:06,433 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,435 - INFO - Transaction send time: 70.60ms
+2025-04-27 00:19:06,435 - INFO - Sent: 4W745U7WU7NbVX2tNZHFaACJcnHr8FAYvvf4HstWLNS4kWbwikjvi7RqkbXWsikp3pUs1Zx2PS1FuFLAhoSVdXKw
+2025-04-27 00:19:06,436 - INFO - --------------------------------------------------
+2025-04-27 00:19:06,436 - INFO - CONFIRMING TRANSACTION...
+2025-04-27 00:19:06,436 - INFO - ID: 4W745U7WU7NbVX2tNZHFaACJcnHr8FAYvvf4HstWLNS4kWbwikjvi7RqkbXWsikp3pUs1Zx2PS1FuFLAhoSVdXKw
+2025-04-27 00:19:06,437 - INFO - Check interval: 0.05 seconds
+2025-04-27 00:19:06,437 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-27 00:19:06,471 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:06,479 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,525 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,588 - INFO - Check 2/10... (Elapsed: 0.15s)
+2025-04-27 00:19:06,612 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:06,631 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,683 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,756 - INFO - Check 3/10... (Elapsed: 0.32s)
+2025-04-27 00:19:06,781 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:06,795 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,855 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:06,937 - INFO - Check 4/10... (Elapsed: 0.50s)
+2025-04-27 00:19:06,964 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:06,979 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,034 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,127 - INFO - Check 5/10... (Elapsed: 0.69s)
+2025-04-27 00:19:07,150 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:07,161 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,224 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,328 - INFO - Check 6/10... (Elapsed: 0.89s)
+2025-04-27 00:19:07,354 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:07,361 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,411 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,523 - INFO - Check 7/10... (Elapsed: 1.09s)
+2025-04-27 00:19:07,547 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:07,556 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,605 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:07,727 - INFO - Check 8/10... (Elapsed: 1.29s)
+2025-04-27 00:19:07,749 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:07,765 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,227 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,359 - INFO - Check 9/10... (Elapsed: 1.92s)
+2025-04-27 00:19:08,384 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:08,399 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,443 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,584 - INFO - Check 10/10... (Elapsed: 2.15s)
+2025-04-27 00:19:08,617 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 429 Too Many Requests"
+2025-04-27 00:19:08,640 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,715 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-27 00:19:08,717 - WARNING - --------------------------------------------------
+2025-04-27 00:19:08,718 - WARNING - Timeout waiting for confirmation after 2.280 seconds
+2025-04-27 00:19:08,718 - WARNING - Maximum retries (10) reached
+2025-04-27 00:19:08,719 - WARNING - --------------------------------------------------
+2025-04-27 00:19:08,720 - WARNING - Swap may have failed or is still pending.
+2025-04-27 14:59:11,920 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 14:59:11,925 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 14:59:32,105 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-27 14:59:32,107 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-27 14:59:43,693 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-27 14:59:43,707 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-27 14:59:43,754 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-27 14:59:43,792 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-27 14:59:44,054 - INFO - Telegram client initialized
+2025-04-27 14:59:44,056 - INFO - Fetching available groups and channels...
+2025-04-27 14:59:44,276 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-27 14:59:44,276 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-27 14:59:44,277 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-27 14:59:44,277 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-27 14:59:44,277 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-27 14:59:44,278 - INFO - 6. bro (ID: -1002612941020)
+2025-04-27 14:59:44,278 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-27 14:59:44,278 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-27 14:59:44,279 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-27 14:59:44,279 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-27 14:59:44,279 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-27 14:59:44,280 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-27 14:59:44,280 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-27 14:59:44,280 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-27 14:59:44,280 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-27 14:59:44,281 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-27 14:59:44,281 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-27 14:59:44,281 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-27 14:59:44,282 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-27 14:59:44,282 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-27 15:00:03,124 - INFO - Monitoring messages from: Underdog Calls Private (ID: -1002209371269)
+2025-04-27 15:00:03,127 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-27 15:00:32,149 - INFO - BUYING TOKEN
+2025-04-27 15:00:32,149 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-27 15:00:32,149 - INFO - Amount: 0.005 SOL
+2025-04-27 15:00:32,150 - INFO - Slippage: 1.5%
+2025-04-27 15:00:32,150 - INFO - Priority Fee: auto
+2025-04-27 15:00:32,150 - INFO - ------------------------------
+2025-04-27 15:00:32,171 - ERROR - Error in menu: Cannot run the event loop while another loop is running
+2025-04-27 15:01:05,780 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-27 15:01:05,780 - ERROR - Error in menu: 
+2025-04-27 15:01:05,783 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-27 15:01:05,784 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-28 00:46:07,762 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 00:46:07,768 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 00:46:20,291 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 00:46:20,336 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 00:46:20,383 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 00:46:20,422 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 00:46:20,693 - INFO - Telegram client initialized
+2025-04-28 00:46:20,696 - INFO - Fetching available groups and channels...
+2025-04-28 00:46:21,024 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 00:46:21,025 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 00:46:21,025 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 00:46:21,026 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 00:46:21,026 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 00:46:21,027 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 00:46:21,027 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 00:46:21,027 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 00:46:21,028 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 00:46:21,028 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 00:46:21,029 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 00:46:21,029 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 00:46:21,030 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 00:46:21,030 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 00:46:21,031 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 00:46:21,031 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 00:46:21,032 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 00:46:21,033 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 00:46:21,034 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 00:46:21,034 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 00:49:48,909 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 00:49:48,911 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 00:50:00,004 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 00:50:00,011 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 00:50:00,140 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 00:50:00,185 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 00:50:00,510 - INFO - Telegram client initialized
+2025-04-28 00:50:00,518 - INFO - Fetching available groups and channels...
+2025-04-28 00:50:00,815 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 00:50:00,816 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 00:50:00,816 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 00:50:00,817 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 00:50:00,818 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 00:50:00,818 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 00:50:00,819 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 00:50:00,820 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 00:50:00,821 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 00:50:00,822 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 00:50:00,823 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 00:50:00,823 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 00:50:00,824 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 00:50:00,824 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 00:50:00,825 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 00:50:00,826 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 00:50:00,828 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 00:50:00,829 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 00:50:00,830 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 00:50:00,831 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 00:50:08,132 - INFO - Monitoring messages from: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 00:50:08,135 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 00:50:28,934 - INFO - BUYING TOKEN
+2025-04-28 00:50:28,935 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 00:50:28,936 - INFO - Amount: 0.005 SOL
+2025-04-28 00:50:28,936 - INFO - Slippage: 1.5%
+2025-04-28 00:50:28,937 - INFO - Priority Fee: auto
+2025-04-28 00:50:28,938 - INFO - ------------------------------
+2025-04-28 00:50:28,939 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 00:50:28,940 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 00:50:29,068 - INFO - Quote API response time: 128.34ms
+2025-04-28 00:50:29,070 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 00:50:29,071 - INFO - Impact: 0.0007016823903182777%
+2025-04-28 00:50:29,072 - INFO - Preparing transaction...
+2025-04-28 00:50:29,171 - INFO - Transaction prep time: 97.60ms
+2025-04-28 00:50:29,174 - INFO - Signing...
+2025-04-28 00:50:29,189 - INFO - Transaction signing time: 13.69ms
+2025-04-28 00:50:29,194 - INFO - Sending to network...
+2025-04-28 00:50:29,393 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 00:50:29,408 - INFO - Transaction send time: 212.80ms
+2025-04-28 00:50:29,409 - INFO - Sent: 4EfZjzU3VN9PsGQneqiMRZPZ7KQBXXTdV3YNjnr1kKebzYjZYXxArPbSRKC3ft78zycZWqdCk2CQbpnFtosMwrvu
+2025-04-28 00:50:29,411 - INFO - --------------------------------------------------
+2025-04-28 00:50:29,412 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 00:50:29,413 - INFO - ID: 4EfZjzU3VN9PsGQneqiMRZPZ7KQBXXTdV3YNjnr1kKebzYjZYXxArPbSRKC3ft78zycZWqdCk2CQbpnFtosMwrvu
+2025-04-28 00:50:29,415 - INFO - Check interval: 0.05 seconds
+2025-04-28 00:50:29,416 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-28 00:50:29,422 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,427 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,430 - INFO - Waiting 0.08s before next check...
+2025-04-28 00:50:29,509 - INFO - Check 2/10... (Elapsed: 0.09s)
+2025-04-28 00:50:29,513 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,518 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,520 - INFO - Waiting 0.09s before next check...
+2025-04-28 00:50:29,614 - INFO - Check 3/10... (Elapsed: 0.20s)
+2025-04-28 00:50:29,619 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,623 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,624 - INFO - Waiting 0.17s before next check...
+2025-04-28 00:50:29,796 - INFO - Check 4/10... (Elapsed: 0.38s)
+2025-04-28 00:50:29,799 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,802 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:29,803 - INFO - Waiting 0.30s before next check...
+2025-04-28 00:50:30,104 - INFO - Check 5/10... (Elapsed: 0.69s)
+2025-04-28 00:50:30,110 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:30,114 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:30,116 - INFO - Waiting 0.33s before next check...
+2025-04-28 00:50:30,446 - INFO - Check 6/10... (Elapsed: 1.03s)
+2025-04-28 00:50:30,450 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:30,453 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:30,454 - INFO - Waiting 0.54s before next check...
+2025-04-28 00:50:30,999 - INFO - Check 7/10... (Elapsed: 1.58s)
+2025-04-28 00:50:31,004 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:31,007 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:31,009 - INFO - Waiting 0.90s before next check...
+2025-04-28 00:50:31,913 - INFO - Check 8/10... (Elapsed: 2.50s)
+2025-04-28 00:50:31,915 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:31,917 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:31,918 - INFO - Waiting 1.06s before next check...
+2025-04-28 00:50:32,983 - INFO - Check 9/10... (Elapsed: 3.57s)
+2025-04-28 00:50:32,985 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:32,988 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:32,989 - INFO - Waiting 1.67s before next check...
+2025-04-28 00:50:34,663 - INFO - Check 10/10... (Elapsed: 5.25s)
+2025-04-28 00:50:34,665 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:34,667 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:34,668 - WARNING - --------------------------------------------------
+2025-04-28 00:50:34,669 - WARNING - Timeout waiting for confirmation after 5.252 seconds
+2025-04-28 00:50:34,669 - WARNING - Maximum retries (10) reached
+2025-04-28 00:50:34,670 - WARNING - --------------------------------------------------
+2025-04-28 00:50:34,670 - WARNING - Note: The transaction may still have been successful despite confirmation timeout.
+2025-04-28 00:50:34,671 - WARNING - Check your wallet or use a block explorer to verify.
+2025-04-28 00:50:34,672 - WARNING - Swap may have failed or is still pending.
+2025-04-28 00:50:34,673 - INFO - Retrying with increased parameters...
+2025-04-28 00:50:36,177 - INFO - Getting price quote... (Attempt 2/3, Slippage: 3.38%)
+2025-04-28 00:50:36,302 - INFO - Quote API response time: 123.94ms
+2025-04-28 00:50:36,304 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 00:50:36,306 - INFO - Impact: 1.1723285739467653e-06%
+2025-04-28 00:50:36,307 - INFO - Preparing transaction...
+2025-04-28 00:50:36,406 - INFO - Transaction prep time: 98.58ms
+2025-04-28 00:50:36,407 - INFO - Signing...
+2025-04-28 00:50:36,409 - INFO - Transaction signing time: 0.98ms
+2025-04-28 00:50:36,411 - INFO - Sending to network...
+2025-04-28 00:50:36,529 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 00:50:36,537 - INFO - Transaction send time: 124.96ms
+2025-04-28 00:50:36,539 - INFO - Sent: 2cmRbbNhSVYoiBVjZ6UzNFysbTrz4enJvX62KCJm1DupPXV7P2t2RUHxWZDnd9ubD7zm58jnJUkaKtHgF3PFiozX
+2025-04-28 00:50:36,540 - INFO - --------------------------------------------------
+2025-04-28 00:50:36,542 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 00:50:36,543 - INFO - ID: 2cmRbbNhSVYoiBVjZ6UzNFysbTrz4enJvX62KCJm1DupPXV7P2t2RUHxWZDnd9ubD7zm58jnJUkaKtHgF3PFiozX
+2025-04-28 00:50:36,545 - INFO - Check interval: 0.05 seconds
+2025-04-28 00:50:36,546 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-28 00:50:36,550 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,555 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,557 - INFO - Waiting 0.07s before next check...
+2025-04-28 00:50:36,633 - INFO - Check 2/10... (Elapsed: 0.09s)
+2025-04-28 00:50:36,638 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,642 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,644 - INFO - Waiting 0.11s before next check...
+2025-04-28 00:50:36,761 - INFO - Check 3/10... (Elapsed: 0.22s)
+2025-04-28 00:50:36,763 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,766 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,767 - INFO - Waiting 0.16s before next check...
+2025-04-28 00:50:36,928 - INFO - Check 4/10... (Elapsed: 0.38s)
+2025-04-28 00:50:36,930 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,932 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:36,934 - INFO - Waiting 0.25s before next check...
+2025-04-28 00:50:37,184 - INFO - Check 5/10... (Elapsed: 0.64s)
+2025-04-28 00:50:37,185 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:37,187 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:37,188 - INFO - Waiting 0.41s before next check...
+2025-04-28 00:50:37,603 - INFO - Check 6/10... (Elapsed: 1.06s)
+2025-04-28 00:50:37,606 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:37,608 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:37,609 - INFO - Waiting 0.66s before next check...
+2025-04-28 00:50:38,266 - INFO - Check 7/10... (Elapsed: 1.72s)
+2025-04-28 00:50:38,268 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:38,271 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:38,272 - INFO - Waiting 0.72s before next check...
+2025-04-28 00:50:38,988 - INFO - Check 8/10... (Elapsed: 2.44s)
+2025-04-28 00:50:38,990 - INFO - Primary RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:38,993 - INFO - Backup RPC error: Object of type Signature is not JSON serializable...
+2025-04-28 00:50:38,994 - INFO - Waiting 1.15s before next check...
+2025-04-28 00:50:39,440 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-28 00:50:39,610 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-28 00:50:39,934 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-28 00:50:39,935 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-28 00:54:46,185 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 00:54:46,187 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 00:54:54,394 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 00:54:54,403 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 00:54:54,490 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 00:54:54,530 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 00:54:54,794 - INFO - Telegram client initialized
+2025-04-28 00:54:54,798 - INFO - Fetching available groups and channels...
+2025-04-28 00:54:55,081 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 00:54:55,081 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 00:54:55,082 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 00:54:55,082 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 00:54:55,083 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 00:54:55,083 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 00:54:55,084 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 00:54:55,084 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 00:54:55,084 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 00:54:55,084 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 00:54:55,085 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 00:54:55,085 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 00:54:55,085 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 00:54:55,085 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 00:54:55,086 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 00:54:55,086 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 00:54:55,087 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 00:54:55,087 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 00:54:55,088 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 00:54:55,088 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 00:54:57,444 - INFO - Monitoring messages from: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 00:54:57,452 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 00:55:09,659 - INFO - BUYING TOKEN
+2025-04-28 00:55:09,660 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 00:55:09,660 - INFO - Amount: 0.005 SOL
+2025-04-28 00:55:09,661 - INFO - Slippage: 1.5%
+2025-04-28 00:55:09,662 - INFO - Priority Fee: auto
+2025-04-28 00:55:09,662 - INFO - ------------------------------
+2025-04-28 00:55:09,663 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 00:55:09,664 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 00:55:09,819 - INFO - Quote API response time: 153.59ms
+2025-04-28 00:55:09,820 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 00:55:09,821 - INFO - Impact: 0.0002997359137455259%
+2025-04-28 00:55:09,825 - INFO - Preparing transaction...
+2025-04-28 00:55:09,877 - INFO - Transaction prep time: 50.75ms
+2025-04-28 00:55:09,877 - INFO - Signing...
+2025-04-28 00:55:09,883 - INFO - Transaction signing time: 4.88ms
+2025-04-28 00:55:09,884 - INFO - Sending to network...
+2025-04-28 00:55:10,043 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 00:55:10,055 - INFO - Transaction send time: 169.96ms
+2025-04-28 00:55:10,056 - INFO - Sent: RamfUKxgxnNsiDkSVvaFKx5hz5rRBZaLTvub6wJiwTVYpffpy7bwPuhCBQP3YTYQPAJHXTxcMwtRkNiKeeLJBZk
+2025-04-28 00:55:10,057 - INFO - --------------------------------------------------
+2025-04-28 00:55:10,058 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 00:55:10,058 - INFO - ID: RamfUKxgxnNsiDkSVvaFKx5hz5rRBZaLTvub6wJiwTVYpffpy7bwPuhCBQP3YTYQPAJHXTxcMwtRkNiKeeLJBZk
+2025-04-28 00:55:10,060 - INFO - Check interval: 0.05 seconds
+2025-04-28 00:55:10,060 - INFO - Check 1/10... (Elapsed: 0.00s)
+2025-04-28 00:55:19,533 - INFO - Waiting 0.06s before next check...
+2025-04-28 00:55:19,599 - INFO - Check 2/10... (Elapsed: 9.54s)
+2025-04-28 00:55:20,144 - INFO - Waiting 0.11s before next check...
+2025-04-28 00:55:20,254 - INFO - Check 3/10... (Elapsed: 10.19s)
+2025-04-28 00:55:20,528 - INFO - Waiting 0.19s before next check...
+2025-04-28 00:55:20,718 - INFO - Check 4/10... (Elapsed: 10.66s)
+2025-04-28 00:55:20,950 - INFO - Waiting 0.26s before next check...
+2025-04-28 00:55:21,214 - INFO - Check 5/10... (Elapsed: 11.15s)
+2025-04-28 00:55:21,451 - INFO - Waiting 0.35s before next check...
+2025-04-28 00:55:21,814 - INFO - Check 6/10... (Elapsed: 11.75s)
+2025-04-28 00:55:22,049 - INFO - Waiting 0.62s before next check...
+2025-04-28 00:55:22,660 - INFO - Check 7/10... (Elapsed: 12.60s)
+2025-04-28 00:55:23,094 - INFO - Waiting 0.90s before next check...
+2025-04-28 00:55:24,001 - INFO - Check 8/10... (Elapsed: 13.94s)
+2025-04-28 00:55:24,275 - INFO - Waiting 1.53s before next check...
+2025-04-28 00:55:25,796 - INFO - Check 9/10... (Elapsed: 15.74s)
+2025-04-28 00:55:25,905 - INFO - ==================================================
+2025-04-28 00:55:25,906 - INFO - TRANSACTION CONFIRMED!
+2025-04-28 00:55:25,907 - INFO - Confirmed by: PRIMARY (https://mainnet.helius-rpc.com/?api-key=...)
+2025-04-28 00:55:25,907 - INFO - Confirmation time: 15.844 seconds
+2025-04-28 00:55:25,908 - INFO - Time: 00:55:25.908
+2025-04-28 00:55:25,909 - INFO - ==================================================
+2025-04-28 00:55:25,910 - INFO - SWAP SUCCESSFUL! 0.005000 -> 0.000051
+2025-04-28 00:55:25,914 - INFO - Swap transaction confirmed. Waiting for tokens to appear in wallet...
+2025-04-28 00:55:25,947 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<wait_for_tokens_and_start_tracking_async() done, defined at c:\Users\jaabi\Downloads\tekegram poop\main.py:798> exception=TypeError('cannot unpack non-iterable coroutine object')>
+Traceback (most recent call last):
+  File "c:\Users\jaabi\Downloads\tekegram poop\main.py", line 811, in wait_for_tokens_and_start_tracking_async
+    lamports, token_amount = get_token_balance_async(token_address)
+    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable coroutine object
+2025-04-28 00:56:26,029 - ERROR - Error selling token: cannot unpack non-iterable coroutine object
+2025-04-28 00:58:10,184 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-28 00:58:10,186 - ERROR - Error in menu: 
+2025-04-28 00:58:10,201 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-28 00:58:10,202 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-28 01:18:49,081 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 01:18:49,084 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 01:19:13,636 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 01:19:13,648 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 01:19:13,832 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 01:19:13,877 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 01:19:14,174 - INFO - Telegram client initialized
+2025-04-28 01:19:14,210 - INFO - Fetching available groups and channels...
+2025-04-28 01:19:14,476 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 01:19:14,477 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 01:19:14,477 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 01:19:14,478 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 01:19:14,479 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 01:19:14,479 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 01:19:14,480 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 01:19:14,481 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 01:19:14,481 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 01:19:14,482 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:19:14,482 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 01:19:14,483 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 01:19:14,484 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 01:19:14,484 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 01:19:14,485 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 01:19:14,485 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 01:19:14,486 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 01:19:14,487 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 01:19:14,487 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 01:19:14,488 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 01:19:18,528 - INFO - Monitoring messages from: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:19:18,538 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 01:19:52,557 - INFO - BUYING TOKEN
+2025-04-28 01:19:52,557 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 01:19:52,558 - INFO - Amount: 0.005 SOL
+2025-04-28 01:19:52,559 - INFO - Slippage: 1.5%
+2025-04-28 01:19:52,561 - INFO - Priority Fee: auto
+2025-04-28 01:19:52,562 - INFO - ------------------------------
+2025-04-28 01:19:52,562 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 01:19:52,563 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 01:19:52,674 - INFO - Quote API response time: 110.28ms
+2025-04-28 01:19:52,675 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 01:19:52,676 - INFO - Impact: 0.0009795718762249702%
+2025-04-28 01:19:52,676 - INFO - Preparing transaction...
+2025-04-28 01:19:52,773 - INFO - Transaction prep time: 96.62ms
+2025-04-28 01:19:52,774 - INFO - Signing...
+2025-04-28 01:19:52,783 - INFO - Transaction signing time: 8.78ms
+2025-04-28 01:19:52,783 - INFO - Sending to network...
+2025-04-28 01:19:52,888 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 01:19:52,897 - INFO - Transaction send time: 113.22ms
+2025-04-28 01:19:52,898 - INFO - Sent: 4RQvH1vEqenAB1RK3m3YYuiLwysyVhikscA7Dn4AR18hvuvcWv1Ew9ZVeH6PrVU5EaadfiCJzcoUb4gUC3AAk8Yc
+2025-04-28 01:19:52,899 - INFO - --------------------------------------------------
+2025-04-28 01:19:52,900 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 01:19:52,900 - INFO - ID: 4RQvH1vEqenAB1RK3m3YYuiLwysyVhikscA7Dn4AR18hvuvcWv1Ew9ZVeH6PrVU5EaadfiCJzcoUb4gUC3AAk8Yc
+2025-04-28 01:19:53,369 - WARNING - Transaction confirmation timed out after 10 attempts
+2025-04-28 01:19:53,371 - WARNING - Swap may have failed or is still pending.
+2025-04-28 01:19:53,372 - INFO - Retrying with increased parameters...
+2025-04-28 01:19:54,875 - INFO - Getting price quote... (Attempt 2/3, Slippage: 3.38%)
+2025-04-28 01:19:55,094 - INFO - Quote API response time: 218.62ms
+2025-04-28 01:19:55,095 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 01:19:55,095 - INFO - Impact: 0.0005084681298242624%
+2025-04-28 01:19:55,095 - INFO - Preparing transaction...
+2025-04-28 01:19:55,211 - INFO - Transaction prep time: 114.19ms
+2025-04-28 01:19:55,212 - INFO - Signing...
+2025-04-28 01:19:55,212 - INFO - Transaction signing time: 0.00ms
+2025-04-28 01:19:55,213 - INFO - Sending to network...
+2025-04-28 01:19:55,341 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 01:19:55,345 - INFO - Transaction send time: 130.78ms
+2025-04-28 01:19:55,345 - INFO - Sent: 5s73riSffz7JEsj7nsHtBGnTW6ybtZuFPxmB2qGjK8wjmrsbNCHRHM47qPhtEGomyjzs7PtkMekEWaWrf1f7m9kn
+2025-04-28 01:19:55,346 - INFO - --------------------------------------------------
+2025-04-28 01:19:55,346 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 01:19:55,347 - INFO - ID: 5s73riSffz7JEsj7nsHtBGnTW6ybtZuFPxmB2qGjK8wjmrsbNCHRHM47qPhtEGomyjzs7PtkMekEWaWrf1f7m9kn
+2025-04-28 01:19:55,814 - WARNING - Transaction confirmation timed out after 10 attempts
+2025-04-28 01:19:55,814 - WARNING - Swap may have failed or is still pending.
+2025-04-28 01:19:55,815 - INFO - Retrying with increased parameters...
+2025-04-28 01:19:57,317 - INFO - Getting price quote... (Attempt 3/3, Slippage: 6.75%)
+2025-04-28 01:19:57,368 - INFO - Quote API response time: 50.76ms
+2025-04-28 01:19:57,370 - INFO - Quote: 0.005000 -> 0.000051
+2025-04-28 01:19:57,370 - INFO - Impact: 0.0006028762405372172%
+2025-04-28 01:19:57,371 - INFO - Preparing transaction...
+2025-04-28 01:19:57,542 - INFO - Transaction prep time: 170.80ms
+2025-04-28 01:19:57,542 - INFO - Signing...
+2025-04-28 01:19:57,543 - INFO - Transaction signing time: 0.00ms
+2025-04-28 01:19:57,543 - INFO - Sending to network...
+2025-04-28 01:19:57,591 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 01:19:57,593 - INFO - Transaction send time: 50.75ms
+2025-04-28 01:19:57,594 - INFO - Sent: 3YRCxbR2ePEMELyWUykJ6MLYSAr2kVeHz3bjp53MA9hLaSU4x1d6UfxdY4VxM3sc6bBFAn3TKWbA9kQRuHSKPLmy
+2025-04-28 01:19:57,595 - INFO - --------------------------------------------------
+2025-04-28 01:19:57,596 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 01:19:57,596 - INFO - ID: 3YRCxbR2ePEMELyWUykJ6MLYSAr2kVeHz3bjp53MA9hLaSU4x1d6UfxdY4VxM3sc6bBFAn3TKWbA9kQRuHSKPLmy
+2025-04-28 01:19:58,063 - WARNING - Transaction confirmation timed out after 10 attempts
+2025-04-28 01:19:58,064 - WARNING - Swap may have failed or is still pending.
+2025-04-28 01:35:18,278 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 01:35:18,280 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 01:35:23,006 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 01:35:23,013 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 01:35:23,132 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 01:35:23,172 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 01:35:23,402 - INFO - Telegram client initialized
+2025-04-28 01:35:23,405 - INFO - Fetching available groups and channels...
+2025-04-28 01:35:23,720 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 01:35:23,721 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 01:35:23,722 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 01:35:23,722 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 01:35:23,723 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 01:35:23,723 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 01:35:23,723 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 01:35:23,724 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 01:35:23,724 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 01:35:23,724 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:35:23,725 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 01:35:23,725 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 01:35:23,725 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 01:35:23,726 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 01:35:23,726 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 01:35:23,726 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 01:35:23,727 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 01:35:23,727 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 01:35:23,727 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 01:35:23,728 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 01:35:28,854 - INFO - Monitoring messages from: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:35:28,856 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 01:35:40,918 - INFO - BUYING TOKEN
+2025-04-28 01:35:40,918 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 01:35:40,919 - INFO - Amount: 0.005 SOL
+2025-04-28 01:35:40,919 - INFO - Slippage: 1.5%
+2025-04-28 01:35:40,920 - INFO - Priority Fee: auto
+2025-04-28 01:35:40,920 - INFO - ------------------------------
+2025-04-28 01:35:40,921 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 01:35:40,921 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 01:35:41,026 - INFO - Quote API response time: 104.43ms
+2025-04-28 01:35:41,027 - INFO - Quote: 0.005000 -> 0.000050
+2025-04-28 01:35:41,027 - INFO - Impact: 0.0%
+2025-04-28 01:35:41,028 - INFO - Preparing transaction...
+2025-04-28 01:35:41,082 - INFO - Transaction prep time: 53.68ms
+2025-04-28 01:35:41,083 - INFO - Signing...
+2025-04-28 01:35:41,084 - INFO - Transaction signing time: 0.98ms
+2025-04-28 01:35:41,084 - INFO - Sending to network...
+2025-04-28 01:35:41,216 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 01:35:41,218 - INFO - Transaction send time: 134.69ms
+2025-04-28 01:35:41,218 - INFO - Sent: 5nP42x7AyXCGkP11b6k8MUxD51XxsrHhJp3PnYon1iTkiFuwg5VxwLFGgVC2bA9v1eRcHgXa6WAVH7cFLqiFeJDY
+2025-04-28 01:35:41,219 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 01:35:41,219 - INFO - ID: 5nP42x7AyXCGkP11b6k8MUxD51XxsrHhJp3PnYon1iTkiFuwg5VxwLFGgVC2bA9v1eRcHgXa6WAVH7cFLqiFeJDY
+2025-04-28 01:35:41,220 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-28 01:35:41,708 - INFO - Waiting 0.07s before next check...
+2025-04-28 01:35:41,775 - INFO - Check 2/20... (Elapsed: 0.55s)
+2025-04-28 01:35:45,106 - INFO - ==================================================
+2025-04-28 01:35:45,107 - INFO - TRANSACTION CONFIRMED!
+2025-04-28 01:35:45,108 - INFO - Confirmation time: 3.886 seconds
+2025-04-28 01:35:45,109 - INFO - Time: 01:35:45.109
+2025-04-28 01:35:45,110 - INFO - ==================================================
+2025-04-28 01:35:45,111 - INFO - SWAP SUCCESSFUL! 0.005000 -> 0.000050
+2025-04-28 01:35:45,111 - INFO - Swap transaction confirmed. Waiting for tokens to appear in wallet...
+2025-04-28 01:35:45,153 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<wait_for_tokens_and_start_tracking_async() done, defined at c:\Users\jaabi\Downloads\tekegram poop\main.py:798> exception=TypeError('cannot unpack non-iterable coroutine object')>
+Traceback (most recent call last):
+  File "c:\Users\jaabi\Downloads\tekegram poop\main.py", line 811, in wait_for_tokens_and_start_tracking_async
+    lamports, token_amount = get_token_balance_async(token_address)
+    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable coroutine object
+2025-04-28 01:37:41,346 - ERROR - Error getting token balance: Passing coroutines is forbidden, use tasks explicitly.
+2025-04-28 01:42:01,813 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 01:42:01,816 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 01:42:07,082 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 01:42:07,088 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 01:42:07,216 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 01:42:07,252 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 01:42:07,489 - INFO - Telegram client initialized
+2025-04-28 01:42:07,493 - INFO - Fetching available groups and channels...
+2025-04-28 01:42:07,725 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 01:42:07,725 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 01:42:07,726 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 01:42:07,726 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 01:42:07,727 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 01:42:07,727 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 01:42:07,727 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 01:42:07,728 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 01:42:07,728 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 01:42:07,729 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:42:07,729 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 01:42:07,730 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 01:42:07,730 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 01:42:07,730 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 01:42:07,731 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 01:42:07,731 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 01:42:07,732 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 01:42:07,732 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 01:42:07,732 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 01:42:07,732 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 01:42:09,445 - INFO - Monitoring messages from: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 01:42:09,455 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 01:42:19,153 - INFO - Found 1 token accounts for 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 01:42:19,159 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 01:42:19,160 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 01:42:19,267 - INFO - Quote API response time: 107.36ms
+2025-04-28 01:42:19,268 - INFO - Quote: 0.000101 -> 0.010056
+2025-04-28 01:42:19,269 - INFO - Impact: 0.0008745907266436963%
+2025-04-28 01:42:19,269 - INFO - Preparing transaction...
+2025-04-28 01:42:19,314 - INFO - Transaction prep time: 44.90ms
+2025-04-28 01:42:19,315 - INFO - Signing...
+2025-04-28 01:42:19,315 - INFO - Transaction signing time: 0.00ms
+2025-04-28 01:42:19,316 - INFO - Sending to network...
+2025-04-28 01:42:19,395 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 01:42:19,399 - INFO - Transaction send time: 82.97ms
+2025-04-28 01:42:19,400 - INFO - Sent: 2JxWwe99LNBtsZKMDSZLWxachz6NspN59JXQYETBZs17ZUrcYghSDcHsjFRdgGN77ELKUa6hsUBkq9euDDAaYovA
+2025-04-28 01:42:19,401 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 01:42:19,406 - INFO - ID: 2JxWwe99LNBtsZKMDSZLWxachz6NspN59JXQYETBZs17ZUrcYghSDcHsjFRdgGN77ELKUa6hsUBkq9euDDAaYovA
+2025-04-28 01:42:19,406 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-28 01:42:20,319 - INFO - Waiting 0.05s before next check...
+2025-04-28 01:42:20,372 - INFO - Check 2/20... (Elapsed: 0.97s)
+2025-04-28 01:42:20,831 - INFO - ==================================================
+2025-04-28 01:42:20,833 - INFO - TRANSACTION CONFIRMED!
+2025-04-28 01:42:20,836 - INFO - Confirmation time: 1.425 seconds
+2025-04-28 01:42:20,836 - INFO - Time: 01:42:20.836
+2025-04-28 01:42:20,839 - INFO - ==================================================
+2025-04-28 01:42:20,842 - INFO - SWAP SUCCESSFUL! 0.000101 -> 0.010056
+2025-04-28 02:08:33,788 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 02:08:33,790 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 02:08:42,277 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 02:08:42,281 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 02:08:42,384 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 02:08:42,425 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 02:08:42,670 - INFO - Telegram client initialized
+2025-04-28 02:08:42,672 - INFO - Fetching available groups and channels...
+2025-04-28 02:08:42,902 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 02:08:42,903 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 02:08:42,904 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 02:08:42,904 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 02:08:42,905 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 02:08:42,905 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 02:08:42,906 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 02:08:42,906 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 02:08:42,906 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 02:08:42,907 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 02:08:42,907 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 02:08:42,907 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 02:08:42,907 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 02:08:42,908 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 02:08:42,908 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 02:08:42,909 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 02:08:42,909 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 02:08:42,909 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 02:08:42,910 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 02:08:42,910 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 02:08:47,920 - INFO - 
+Please select 2 chats to monitor:
+2025-04-28 02:08:50,808 - INFO - Added: Underdog Calls Private (ID: -1002209371269)
+2025-04-28 02:08:52,983 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-28 02:10:37,746 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 02:10:37,750 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 02:10:47,865 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 02:10:47,869 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 02:10:47,949 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 02:10:47,990 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 02:10:48,270 - INFO - Telegram client initialized
+2025-04-28 02:10:48,273 - INFO - Fetching available groups and channels...
+2025-04-28 02:10:48,499 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 02:10:48,500 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 02:10:48,500 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 02:10:48,501 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 02:10:48,501 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 02:10:48,502 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 02:10:48,502 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 02:10:48,503 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 02:10:48,503 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 02:10:48,503 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 02:10:48,504 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 02:10:48,504 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 02:10:48,505 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 02:10:48,505 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 02:10:48,505 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 02:10:48,506 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 02:10:48,506 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 02:10:48,507 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 02:10:48,507 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 02:10:48,507 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 02:10:52,960 - INFO - 
+Please select 1 chats to monitor:
+2025-04-28 02:10:54,735 - INFO - Added: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 02:10:54,737 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 02:10:54,738 - INFO - Now monitoring 1 chats:
+2025-04-28 02:10:54,738 - INFO - • Sams Insider Calls (ID: -1002127539393)
+2025-04-28 02:12:14,074 - INFO - Found 1 token accounts for 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-28 02:12:14,080 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-28 02:12:14,082 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-28 02:12:14,191 - INFO - Quote API response time: 108.34ms
+2025-04-28 02:12:14,191 - INFO - Quote: 0.000101 -> 0.010471
+2025-04-28 02:12:14,191 - INFO - Impact: 0.0015934747487428476%
+2025-04-28 02:12:14,192 - INFO - Preparing transaction...
+2025-04-28 02:12:14,243 - INFO - Transaction prep time: 50.76ms
+2025-04-28 02:12:14,244 - INFO - Signing...
+2025-04-28 02:12:14,254 - INFO - Transaction signing time: 8.79ms
+2025-04-28 02:12:14,255 - INFO - Sending to network...
+2025-04-28 02:12:14,343 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 02:12:14,352 - INFO - Transaction send time: 96.62ms
+2025-04-28 02:12:14,353 - INFO - Sent: 2VkGctUGAS49UTiT1RajDD3E7NusQELECWVo7kphzDKd74QosJq96c6aAsAoAehpA9aPrT37HQKuHSdYBAAjFhay
+2025-04-28 02:12:14,353 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 02:12:14,354 - INFO - ID: 2VkGctUGAS49UTiT1RajDD3E7NusQELECWVo7kphzDKd74QosJq96c6aAsAoAehpA9aPrT37HQKuHSdYBAAjFhay
+2025-04-28 02:12:14,355 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-28 02:12:19,266 - INFO - Waiting 0.07s before next check...
+2025-04-28 02:12:19,338 - INFO - Check 2/20... (Elapsed: 4.98s)
+2025-04-28 02:12:20,012 - INFO - Waiting 0.08s before next check...
+2025-04-28 02:12:20,097 - INFO - Check 3/20... (Elapsed: 5.74s)
+2025-04-28 02:12:20,535 - INFO - Waiting 0.09s before next check...
+2025-04-28 02:12:20,626 - INFO - Check 4/20... (Elapsed: 6.27s)
+2025-04-28 02:12:21,022 - INFO - Waiting 0.12s before next check...
+2025-04-28 02:12:21,148 - INFO - Check 5/20... (Elapsed: 6.79s)
+2025-04-28 02:12:21,500 - INFO - Waiting 0.11s before next check...
+2025-04-28 02:12:21,611 - INFO - Check 6/20... (Elapsed: 7.26s)
+2025-04-28 02:12:21,972 - INFO - Waiting 0.17s before next check...
+2025-04-28 02:12:22,146 - INFO - Check 7/20... (Elapsed: 7.79s)
+2025-04-28 02:12:22,632 - INFO - Waiting 0.20s before next check...
+2025-04-28 02:12:22,831 - INFO - Check 8/20... (Elapsed: 8.48s)
+2025-04-28 02:12:23,197 - INFO - Waiting 0.20s before next check...
+2025-04-28 02:12:23,404 - INFO - Check 9/20... (Elapsed: 9.05s)
+2025-04-28 02:12:23,795 - INFO - Waiting 0.28s before next check...
+2025-04-28 02:12:24,077 - INFO - Check 10/20... (Elapsed: 9.72s)
+2025-04-28 02:12:25,439 - INFO - Waiting 0.36s before next check...
+2025-04-28 02:12:25,796 - INFO - Check 11/20... (Elapsed: 11.44s)
+2025-04-28 02:12:26,142 - INFO - Waiting 0.42s before next check...
+2025-04-28 02:12:26,564 - INFO - Check 12/20... (Elapsed: 12.21s)
+2025-04-28 02:12:26,913 - INFO - Waiting 0.49s before next check...
+2025-04-28 02:12:27,408 - INFO - Check 13/20... (Elapsed: 13.05s)
+2025-04-28 02:12:27,767 - INFO - Waiting 0.52s before next check...
+2025-04-28 02:12:28,285 - INFO - Check 14/20... (Elapsed: 13.93s)
+2025-04-28 02:12:28,632 - INFO - Waiting 0.74s before next check...
+2025-04-28 02:12:29,373 - INFO - Check 15/20... (Elapsed: 15.02s)
+2025-04-28 02:12:29,745 - INFO - Waiting 0.92s before next check...
+2025-04-28 02:12:30,664 - INFO - Check 16/20... (Elapsed: 16.31s)
+2025-04-28 02:12:31,042 - INFO - Waiting 0.99s before next check...
+2025-04-28 02:12:32,035 - INFO - Check 17/20... (Elapsed: 17.68s)
+2025-04-28 02:12:32,441 - INFO - Waiting 1.31s before next check...
+2025-04-28 02:12:33,756 - INFO - Check 18/20... (Elapsed: 19.40s)
+2025-04-28 02:12:34,086 - INFO - Waiting 1.49s before next check...
+2025-04-28 02:12:35,579 - INFO - Check 19/20... (Elapsed: 21.22s)
+2025-04-28 02:12:35,965 - INFO - Waiting 1.77s before next check...
+2025-04-28 02:12:37,736 - INFO - Check 20/20... (Elapsed: 23.38s)
+2025-04-28 02:12:38,094 - WARNING - Confirmation timeout after 20 attempts (23.74s)
+2025-04-28 02:12:38,095 - WARNING - Swap may have failed or is still pending.
+2025-04-28 02:12:38,096 - INFO - Retrying with increased parameters...
+2025-04-28 02:12:39,598 - INFO - Getting price quote... (Attempt 2/3, Slippage: 3.38%)
+2025-04-28 02:12:39,674 - INFO - Quote API response time: 76.13ms
+2025-04-28 02:12:39,675 - INFO - Quote: 0.000101 -> 0.010451
+2025-04-28 02:12:39,680 - INFO - Impact: 0.0019412022208535754%
+2025-04-28 02:12:39,681 - INFO - Preparing transaction...
+2025-04-28 02:12:39,777 - INFO - Transaction prep time: 95.18ms
+2025-04-28 02:12:39,778 - INFO - Signing...
+2025-04-28 02:12:39,778 - INFO - Transaction signing time: 0.00ms
+2025-04-28 02:12:39,779 - INFO - Sending to network...
+2025-04-28 02:12:39,850 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-28 02:12:39,853 - INFO - Transaction send time: 74.18ms
+2025-04-28 02:12:39,854 - INFO - Sent: 4a3Ts4obaFykmhzfksfjbukiEbkE22Yt8r3Xfu6skmgwFvbTHcoxsn6NinDYZtyGyFapo34qgut1M7D8TTvLSRDx
+2025-04-28 02:12:39,854 - INFO - CONFIRMING TRANSACTION...
+2025-04-28 02:12:39,855 - INFO - ID: 4a3Ts4obaFykmhzfksfjbukiEbkE22Yt8r3Xfu6skmgwFvbTHcoxsn6NinDYZtyGyFapo34qgut1M7D8TTvLSRDx
+2025-04-28 02:12:39,856 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-28 02:12:43,028 - INFO - ==================================================
+2025-04-28 02:12:43,029 - INFO - TRANSACTION CONFIRMED!
+2025-04-28 02:12:43,029 - INFO - Confirmation time: 3.173 seconds
+2025-04-28 02:12:43,029 - INFO - Time: 02:12:43.029
+2025-04-28 02:12:43,030 - INFO - ==================================================
+2025-04-28 02:12:43,031 - INFO - SWAP SUCCESSFUL! 0.000101 -> 0.010451
+2025-04-28 02:13:05,428 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-28 02:13:05,429 - ERROR - Error in menu: 
+2025-04-28 02:13:05,430 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-28 02:13:05,431 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-28 03:20:33,280 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 03:20:33,282 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 03:20:39,968 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 03:20:39,975 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 03:20:40,071 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 03:20:40,114 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 03:20:40,353 - INFO - Telegram client initialized
+2025-04-28 03:20:40,354 - INFO - Fetching available groups and channels...
+2025-04-28 03:20:40,566 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 03:20:40,566 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 03:20:40,567 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 03:20:40,567 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 03:20:40,568 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 03:20:40,568 - INFO - 6. bro (ID: -1002612941020)
+2025-04-28 03:20:40,569 - INFO - 7. underdogs degen (ID: -1002297631019)
+2025-04-28 03:20:40,569 - INFO - 8. Geppetto degen* (ID: -1002480481360)
+2025-04-28 03:20:40,570 - INFO - 9. Coby Calls * (ID: -1002339192565)
+2025-04-28 03:20:40,570 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 03:20:40,570 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 03:20:40,570 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 03:20:40,571 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 03:20:40,571 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 03:20:40,571 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 03:20:40,571 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 03:20:40,572 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 03:20:40,572 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 03:20:40,572 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 03:20:40,572 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 03:20:44,523 - INFO - 
+Please select 1 chats to monitor:
+2025-04-28 03:20:45,735 - INFO - Added: Sams Insider Calls (ID: -1002127539393)
+2025-04-28 03:20:45,737 - INFO - Set up message handler for chat: Sams Insider Calls
+2025-04-28 03:20:45,738 - INFO - Now monitoring 1 chats:
+2025-04-28 03:20:45,738 - INFO - • Sams Insider Calls (ID: -1002127539393)
+2025-04-28 13:10:13,326 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 13:10:13,331 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 13:10:23,062 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 13:10:23,089 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 13:10:23,222 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 13:10:23,258 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 13:10:23,487 - INFO - Telegram client initialized
+2025-04-28 13:10:23,490 - INFO - Fetching available groups and channels...
+2025-04-28 13:10:23,955 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 13:10:23,956 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:10:23,958 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 13:10:23,960 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:10:23,961 - INFO - 5. Coby Calls * (ID: -1002339192565)
+2025-04-28 13:10:23,962 - INFO - 6. Quantum Courses (ID: -1002328886823)
+2025-04-28 13:10:23,963 - INFO - 7. bro (ID: -1002612941020)
+2025-04-28 13:10:23,965 - INFO - 8. underdogs degen (ID: -1002297631019)
+2025-04-28 13:10:23,966 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-28 13:10:23,967 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 13:10:23,968 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 13:10:23,969 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 13:10:23,970 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 13:10:23,972 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 13:10:23,973 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 13:10:23,975 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 13:10:23,976 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 13:10:23,977 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 13:10:23,978 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 13:10:23,980 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 13:10:27,445 - INFO - 
+Please select 1 chats to monitor:
+2025-04-28 13:10:30,769 - INFO - Added: Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:10:51,050 - INFO - Saved paper trading data
+2025-04-28 13:10:51,058 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-28 13:10:51,058 - INFO - Now monitoring 1 chats:
+2025-04-28 13:10:51,059 - INFO - • Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:28:37,661 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 13:28:37,663 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 13:28:48,084 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 13:28:48,112 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 13:28:48,256 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 13:28:48,288 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 13:28:48,512 - INFO - Telegram client initialized
+2025-04-28 13:28:48,516 - INFO - Fetching available groups and channels...
+2025-04-28 13:28:49,047 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 13:28:49,048 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:28:49,049 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 13:28:49,050 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:28:49,051 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 13:28:49,052 - INFO - 6. Coby Calls * (ID: -1002339192565)
+2025-04-28 13:28:49,053 - INFO - 7. bro (ID: -1002612941020)
+2025-04-28 13:28:49,054 - INFO - 8. underdogs degen (ID: -1002297631019)
+2025-04-28 13:28:49,056 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-28 13:28:49,057 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 13:28:49,062 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 13:28:49,063 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 13:28:49,064 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 13:28:49,065 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 13:28:49,067 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 13:28:49,068 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 13:28:49,069 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 13:28:49,070 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 13:28:49,075 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 13:28:49,076 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 13:28:57,954 - INFO - 
+Please select 4 chats to monitor:
+2025-04-28 13:29:00,716 - INFO - Added: Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:29:01,853 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-28 13:29:02,864 - INFO - Added: Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:29:04,003 - INFO - Added: Quantum Courses (ID: -1002328886823)
+2025-04-28 13:29:04,025 - INFO - Loaded paper trading data with 0 trades
+2025-04-28 13:29:04,035 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-28 13:29:04,036 - INFO - Set up message handler for chat: Underdog Calls
+2025-04-28 13:29:04,036 - INFO - Set up message handler for chat: Gambles * MadApes
+2025-04-28 13:29:04,037 - INFO - Set up message handler for chat: Quantum Courses
+2025-04-28 13:29:04,037 - INFO - Now monitoring 4 chats:
+2025-04-28 13:29:04,037 - INFO - • Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:29:04,038 - INFO - • Underdog Calls (ID: -1002478633703)
+2025-04-28 13:29:04,038 - INFO - • Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:29:04,039 - INFO - • Quantum Courses (ID: -1002328886823)
+2025-04-28 13:32:25,146 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 13:32:25,151 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 13:32:34,390 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 13:32:34,398 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 13:32:34,509 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 13:32:34,545 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 13:32:34,771 - INFO - Telegram client initialized
+2025-04-28 13:32:34,777 - INFO - Fetching available groups and channels...
+2025-04-28 13:32:35,031 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 13:32:35,033 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 13:32:35,034 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 13:32:35,034 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:32:35,035 - INFO - 5. Quantum Courses (ID: -1002328886823)
+2025-04-28 13:32:35,035 - INFO - 6. Coby Calls * (ID: -1002339192565)
+2025-04-28 13:32:35,035 - INFO - 7. bro (ID: -1002612941020)
+2025-04-28 13:32:35,036 - INFO - 8. underdogs degen (ID: -1002297631019)
+2025-04-28 13:32:35,036 - INFO - 9. Geppetto degen* (ID: -1002480481360)
+2025-04-28 13:32:35,037 - INFO - 10. Sams Insider Calls (ID: -1002127539393)
+2025-04-28 13:32:35,037 - INFO - 11. Geppetto calls (ID: -1002381042005)
+2025-04-28 13:32:35,038 - INFO - 12. Shinobi Signals (ID: -1001861246649)
+2025-04-28 13:32:35,038 - INFO - 13. Redemption Academy (ID: -1001442804317)
+2025-04-28 13:32:35,039 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 13:32:35,040 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 13:32:35,040 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 13:32:35,040 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 13:32:35,041 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 13:32:35,041 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 13:32:35,042 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 13:32:40,752 - INFO - 
+Please select 2 chats to monitor:
+2025-04-28 13:32:43,826 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-28 13:32:45,553 - INFO - Added: Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:32:45,561 - INFO - Loaded paper trading data with 0 trades
+2025-04-28 13:32:45,570 - INFO - Set up message handler for chat: Underdog Calls
+2025-04-28 13:32:45,570 - INFO - Set up message handler for chat: Gambles * MadApes
+2025-04-28 13:32:45,571 - INFO - Now monitoring 2 chats:
+2025-04-28 13:32:45,571 - INFO - • Underdog Calls (ID: -1002478633703)
+2025-04-28 13:32:45,572 - INFO - • Gambles * MadApes (ID: -1001758611100)
+2025-04-28 13:34:17,676 - INFO - Loaded paper trading data with 0 trades
+2025-04-28 13:34:17,679 - INFO - Saved paper trading data
+2025-04-28 23:55:20,245 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-28 23:55:20,249 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-28 23:55:27,471 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-28 23:55:27,500 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-28 23:55:27,671 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-28 23:55:27,704 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-28 23:55:27,928 - INFO - Telegram client initialized
+2025-04-28 23:55:27,932 - INFO - Fetching available groups and channels...
+2025-04-28 23:55:28,213 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-28 23:55:28,213 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-28 23:55:28,214 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-28 23:55:28,215 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-28 23:55:28,216 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-28 23:55:28,217 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-28 23:55:28,217 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-28 23:55:28,218 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-28 23:55:28,219 - INFO - 9. bro (ID: -1002612941020)
+2025-04-28 23:55:28,219 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-28 23:55:28,220 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-28 23:55:28,221 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-28 23:55:28,221 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-28 23:55:28,222 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-28 23:55:28,223 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-28 23:55:28,223 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-28 23:55:28,223 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-28 23:55:28,223 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-28 23:55:28,224 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-28 23:55:28,225 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-28 23:55:30,244 - INFO - 
+Please select 4 chats to monitor:
+2025-04-28 23:55:32,755 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-28 23:55:34,056 - INFO - Added: Gambles * MadApes (ID: -1001758611100)
+2025-04-28 23:55:34,681 - INFO - Added: Shinobi Signals (ID: -1001861246649)
+2025-04-28 23:55:36,019 - INFO - Added: Redemption Academy (ID: -1001442804317)
+2025-04-28 23:55:36,029 - INFO - Loaded paper trading data with 0 trades
+2025-04-28 23:55:36,038 - INFO - Set up message handler for chat: Underdog Calls
+2025-04-28 23:55:36,039 - INFO - Set up message handler for chat: Gambles * MadApes
+2025-04-28 23:55:36,040 - INFO - Set up message handler for chat: Shinobi Signals
+2025-04-28 23:55:36,040 - INFO - Set up message handler for chat: Redemption Academy
+2025-04-28 23:55:36,041 - INFO - Now monitoring 4 chats:
+2025-04-28 23:55:36,042 - INFO - • Underdog Calls (ID: -1002478633703)
+2025-04-28 23:55:36,042 - INFO - • Gambles * MadApes (ID: -1001758611100)
+2025-04-28 23:55:36,043 - INFO - • Shinobi Signals (ID: -1001861246649)
+2025-04-28 23:55:36,044 - INFO - • Redemption Academy (ID: -1001442804317)
+2025-04-29 00:01:44,570 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:01:44,573 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:01:53,287 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:01:53,294 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:01:53,398 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:01:53,446 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:01:53,744 - INFO - Telegram client initialized
+2025-04-29 00:01:53,746 - INFO - Fetching available groups and channels...
+2025-04-29 00:01:54,024 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:01:54,025 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:01:54,025 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:01:54,026 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:01:54,027 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:01:54,028 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:01:54,028 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:01:54,029 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:01:54,030 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:01:54,030 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:01:54,031 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:01:54,032 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:01:54,032 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:01:54,033 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:01:54,033 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:01:54,034 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:01:54,034 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:01:54,035 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:01:54,036 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:01:54,036 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:01:56,565 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:01:59,503 - INFO - Added: BobTMM (ID: -1002447939682)
+2025-04-29 00:01:59,517 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:01:59,529 - INFO - Set up message handler for chat: BobTMM
+2025-04-29 00:01:59,529 - INFO - Now monitoring 1 chats:
+2025-04-29 00:01:59,530 - INFO - • BobTMM (ID: -1002447939682)
+2025-04-29 00:03:38,715 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:03:38,717 - INFO - Saved paper trading data
+2025-04-29 00:05:03,109 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:05:03,111 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:05:12,122 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:05:12,129 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:05:12,244 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:05:12,290 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:05:12,565 - INFO - Telegram client initialized
+2025-04-29 00:05:12,569 - INFO - Fetching available groups and channels...
+2025-04-29 00:05:12,824 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:05:12,825 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:05:12,825 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:05:12,826 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:05:12,826 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:05:12,827 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:05:12,827 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:05:12,828 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:05:12,828 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:05:12,829 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:05:12,829 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:05:12,830 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:05:12,830 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:05:12,831 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:05:12,831 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:05:12,832 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:05:12,832 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:05:12,832 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:05:12,833 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:05:12,833 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:05:47,465 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:05:49,001 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:05:49,009 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:05:49,016 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:05:49,017 - INFO - Now monitoring 1 chats:
+2025-04-29 00:05:49,017 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:07:25,755 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:07:25,758 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:07:31,203 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:07:31,214 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:07:31,378 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:07:31,427 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:07:31,783 - INFO - Telegram client initialized
+2025-04-29 00:07:31,791 - INFO - Fetching available groups and channels...
+2025-04-29 00:07:32,288 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:07:32,289 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:07:32,290 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:07:32,290 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:07:32,291 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:07:32,291 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:07:32,292 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:07:32,293 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:07:32,293 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:07:32,294 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:07:32,295 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:07:32,295 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:07:32,295 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:07:32,296 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:07:32,297 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:07:32,297 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:07:32,298 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:07:32,298 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:07:32,299 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:07:32,299 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:07:33,943 - INFO - 
+Please select 11 chats to monitor:
+2025-04-29 00:07:36,569 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:07:37,206 - INFO - Added: Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:07:38,306 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-29 00:07:39,006 - INFO - Added: Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:07:39,681 - INFO - Added: Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:07:40,319 - INFO - Added: Redemption Academy (ID: -1001442804317)
+2025-04-29 00:07:40,980 - INFO - Added: Quantum Courses (ID: -1002328886823)
+2025-04-29 00:07:42,293 - INFO - Added: Coby Calls * (ID: -1002339192565)
+2025-04-29 00:07:43,233 - INFO - Added: bro (ID: -1002612941020)
+2025-04-29 00:07:44,107 - INFO - Added: underdogs degen (ID: -1002297631019)
+2025-04-29 00:07:45,157 - INFO - Added: Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:07:45,164 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:07:45,177 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:07:45,178 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-29 00:07:45,178 - INFO - Set up message handler for chat: Underdog Calls
+2025-04-29 00:07:45,179 - INFO - Set up message handler for chat: Gambles * MadApes
+2025-04-29 00:07:45,180 - INFO - Set up message handler for chat: Shinobi Signals
+2025-04-29 00:07:45,180 - INFO - Set up message handler for chat: Redemption Academy
+2025-04-29 00:07:45,181 - INFO - Set up message handler for chat: Quantum Courses
+2025-04-29 00:07:45,182 - INFO - Set up message handler for chat: Coby Calls *
+2025-04-29 00:07:45,182 - INFO - Set up message handler for chat: bro
+2025-04-29 00:07:45,183 - INFO - Set up message handler for chat: underdogs degen
+2025-04-29 00:07:45,184 - INFO - Set up message handler for chat: Geppetto degen*
+2025-04-29 00:07:45,184 - INFO - Now monitoring 11 chats:
+2025-04-29 00:07:45,185 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:07:45,186 - INFO - • Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:07:45,186 - INFO - • Underdog Calls (ID: -1002478633703)
+2025-04-29 00:07:45,187 - INFO - • Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:07:45,188 - INFO - • Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:07:45,188 - INFO - • Redemption Academy (ID: -1001442804317)
+2025-04-29 00:07:45,189 - INFO - • Quantum Courses (ID: -1002328886823)
+2025-04-29 00:07:45,190 - INFO - • Coby Calls * (ID: -1002339192565)
+2025-04-29 00:07:45,190 - INFO - • bro (ID: -1002612941020)
+2025-04-29 00:07:45,191 - INFO - • underdogs degen (ID: -1002297631019)
+2025-04-29 00:07:45,191 - INFO - • Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:12:10,003 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:12:10,009 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:12:25,296 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:12:25,309 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:12:25,456 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:12:25,505 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:12:25,826 - INFO - Telegram client initialized
+2025-04-29 00:12:25,833 - INFO - Fetching available groups and channels...
+2025-04-29 00:12:26,388 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:12:26,390 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:12:26,391 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:12:26,393 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:12:26,394 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:12:26,396 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:12:26,398 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:12:26,400 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:12:26,401 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:12:26,402 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:12:26,404 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:12:26,405 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:12:26,406 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:12:26,407 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:12:26,408 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:12:26,409 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:12:26,411 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:12:26,412 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:12:26,413 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:12:26,415 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:12:28,409 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:12:29,550 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:12:29,555 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:12:29,561 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:12:29,562 - INFO - Now monitoring 1 chats:
+2025-04-29 00:12:29,562 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:12:53,742 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:12:53,748 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:13:00,846 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:13:00,856 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:13:00,992 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:13:01,044 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:13:01,385 - INFO - Telegram client initialized
+2025-04-29 00:13:01,394 - INFO - Fetching available groups and channels...
+2025-04-29 00:13:01,681 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:13:01,682 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:13:01,682 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:13:01,683 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:13:01,684 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:13:01,684 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:13:01,684 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:13:01,685 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:13:01,685 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:13:01,686 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:13:01,686 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:13:01,687 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:13:01,687 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:13:01,687 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:13:01,688 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:13:01,689 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:13:01,689 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:13:01,690 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:13:01,690 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:13:01,691 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:13:01,700 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:13:03,300 - ERROR - Please enter a number.
+2025-04-29 00:13:04,152 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:13:04,160 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:13:04,173 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:13:04,174 - INFO - Now monitoring 1 chats:
+2025-04-29 00:13:04,175 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:15:48,452 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:15:48,457 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:15:58,446 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:15:58,451 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:15:58,550 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:15:58,596 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:15:58,888 - INFO - Telegram client initialized
+2025-04-29 00:15:58,892 - INFO - Fetching available groups and channels...
+2025-04-29 00:15:59,135 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:15:59,135 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:15:59,136 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:15:59,136 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:15:59,137 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:15:59,137 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:15:59,138 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:15:59,138 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:15:59,138 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:15:59,139 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:15:59,139 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:15:59,140 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:15:59,140 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:15:59,141 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:15:59,141 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:15:59,142 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:15:59,142 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:15:59,142 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:15:59,143 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:15:59,143 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:16:00,521 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:16:01,259 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:16:01,278 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:16:01,292 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:16:01,293 - INFO - Now monitoring 1 chats:
+2025-04-29 00:16:01,294 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:24:44,305 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:24:44,312 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:24:54,695 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:24:54,707 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:24:54,828 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:24:54,876 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:24:55,197 - INFO - Telegram client initialized
+2025-04-29 00:24:55,206 - INFO - Fetching available groups and channels...
+2025-04-29 00:24:55,611 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:24:55,612 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:24:55,613 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:24:55,613 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:24:55,614 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:24:55,614 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:24:55,615 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:24:55,616 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:24:55,616 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:24:55,617 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:24:55,617 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:24:55,618 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:24:55,619 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:24:55,619 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:24:55,620 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:24:55,620 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:24:55,621 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:24:55,621 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:24:55,622 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:24:55,622 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:24:57,241 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:24:58,313 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:24:58,355 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:24:58,356 - INFO - Now monitoring 1 chats:
+2025-04-29 00:24:58,357 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:25:21,062 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-29 00:25:21,063 - ERROR - Error in menu: 
+2025-04-29 00:25:21,069 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-29 00:25:21,071 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:28:14,355 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:28:14,359 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:28:15,060 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:28:26,934 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:28:26,942 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:28:27,028 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:28:27,077 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:28:27,380 - INFO - Telegram client initialized
+2025-04-29 00:28:27,385 - INFO - Fetching available groups and channels...
+2025-04-29 00:28:27,661 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:28:27,662 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:28:27,663 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:28:27,664 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:28:27,665 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:28:27,666 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:28:27,667 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:28:27,668 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:28:27,669 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:28:27,670 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:28:27,671 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:28:27,672 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:28:27,673 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:28:27,674 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:28:27,675 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:28:27,676 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:28:27,677 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:28:27,678 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:28:27,679 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:28:27,680 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:28:31,155 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:28:32,100 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:28:38,314 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:28:38,315 - INFO - Now monitoring 1 chats:
+2025-04-29 00:28:38,315 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:29:10,281 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:29:10,283 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:29:11,131 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:29:15,735 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:29:15,741 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:29:15,857 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:29:15,908 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:29:16,229 - INFO - Telegram client initialized
+2025-04-29 00:29:16,233 - INFO - Fetching available groups and channels...
+2025-04-29 00:29:16,455 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:29:16,456 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:29:16,457 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:29:16,457 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:29:16,458 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:29:16,458 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:29:16,458 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:29:16,459 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:29:16,460 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:29:16,460 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:29:16,461 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:29:16,461 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:29:16,462 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:29:16,462 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:29:16,463 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:29:16,463 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:29:16,464 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:29:16,464 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:29:16,465 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:29:16,465 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:29:18,152 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:29:18,767 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:29:22,081 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:29:22,081 - INFO - Now monitoring 1 chats:
+2025-04-29 00:29:22,082 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:33:39,927 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:33:39,940 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:33:41,369 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:33:53,037 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:33:53,045 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:33:53,159 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:33:53,212 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:33:53,562 - INFO - Telegram client initialized
+2025-04-29 00:33:53,578 - INFO - Fetching available groups and channels...
+2025-04-29 00:33:53,831 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:33:53,832 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:33:53,833 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:33:53,833 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:33:53,834 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:33:53,835 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:33:53,836 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:33:53,837 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:33:53,837 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:33:53,838 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:33:53,838 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:33:53,838 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:33:53,839 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:33:53,839 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:33:53,840 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:33:53,840 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:33:53,841 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:33:53,841 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:33:53,842 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:33:53,842 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:33:56,118 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:33:56,866 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:33:59,398 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:33:59,398 - INFO - Now monitoring 1 chats:
+2025-04-29 00:33:59,399 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:36:43,101 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:36:43,103 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:36:43,926 - INFO - Loaded paper trading data with 0 trades
+2025-04-29 00:36:48,803 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:36:48,810 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:36:49,002 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:36:49,051 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:36:49,621 - INFO - Telegram client initialized
+2025-04-29 00:36:49,640 - INFO - Fetching available groups and channels...
+2025-04-29 00:36:50,085 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:36:50,086 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:36:50,087 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:36:50,087 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:36:50,087 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:36:50,088 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:36:50,088 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:36:50,089 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:36:50,090 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:36:50,090 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:36:50,090 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:36:50,091 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:36:50,091 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:36:50,092 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:36:50,093 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:36:50,093 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:36:50,094 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:36:50,095 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:36:50,095 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:36:50,097 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:36:51,242 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:36:52,627 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:36:57,605 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:36:57,605 - INFO - Now monitoring 1 chats:
+2025-04-29 00:36:57,606 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:37:34,304 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 00:37:34,319 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 00:38:12,201 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 00:38:12,209 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 00:38:12,320 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 00:38:12,371 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 00:38:12,922 - INFO - Telegram client initialized
+2025-04-29 00:38:12,925 - INFO - Fetching available groups and channels...
+2025-04-29 00:38:13,432 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 00:38:13,433 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 00:38:13,435 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 00:38:13,436 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 00:38:13,438 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 00:38:13,439 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 00:38:13,440 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 00:38:13,441 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 00:38:13,442 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 00:38:13,443 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 00:38:13,445 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 00:38:13,446 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 00:38:13,447 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 00:38:13,448 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 00:38:13,450 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 00:38:13,451 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 00:38:13,452 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 00:38:13,453 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 00:38:13,454 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 00:38:13,456 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 00:38:15,861 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 00:38:16,743 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 00:38:16,753 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 00:38:16,754 - INFO - Now monitoring 1 chats:
+2025-04-29 00:38:16,756 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 00:38:25,511 - INFO - Configuration saved to .env file
+2025-04-29 00:39:23,689 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-29 00:39:23,691 - INFO - Connection closed while sending data
+2025-04-29 00:39:23,693 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-29 01:00:28,127 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 01:00:28,130 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 01:00:35,466 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 01:00:35,472 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 01:00:35,559 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 01:00:35,609 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 01:00:35,898 - INFO - Telegram client initialized
+2025-04-29 01:00:35,903 - INFO - Fetching available groups and channels...
+2025-04-29 01:00:36,153 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 01:00:36,154 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 01:00:36,154 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 01:00:36,155 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 01:00:36,155 - INFO - 5. Shinobi Signals (ID: -1001861246649)
+2025-04-29 01:00:36,156 - INFO - 6. Redemption Academy (ID: -1001442804317)
+2025-04-29 01:00:36,156 - INFO - 7. Quantum Courses (ID: -1002328886823)
+2025-04-29 01:00:36,156 - INFO - 8. Coby Calls * (ID: -1002339192565)
+2025-04-29 01:00:36,157 - INFO - 9. bro (ID: -1002612941020)
+2025-04-29 01:00:36,157 - INFO - 10. underdogs degen (ID: -1002297631019)
+2025-04-29 01:00:36,157 - INFO - 11. Geppetto degen* (ID: -1002480481360)
+2025-04-29 01:00:36,158 - INFO - 12. Sams Alpha (ID: -1002127539393)
+2025-04-29 01:00:36,158 - INFO - 13. Geppetto calls (ID: -1002381042005)
+2025-04-29 01:00:36,158 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 01:00:36,159 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 01:00:36,159 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 01:00:36,159 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 01:00:36,159 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 01:00:36,160 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 01:00:36,161 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 01:01:05,330 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 01:01:05,830 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 01:01:05,833 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 01:01:05,833 - INFO - Now monitoring 1 chats:
+2025-04-29 01:01:05,833 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 01:01:10,284 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-29 01:01:10,285 - ERROR - Error in menu: 
+2025-04-29 01:01:10,289 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-29 01:01:10,291 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-29 17:38:42,815 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 17:38:42,819 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 17:43:21,567 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 17:43:21,569 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 17:43:22,119 - INFO - Paper trading initialized with 10.0 SOL balance
+2025-04-29 17:49:16,751 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 17:49:16,754 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 17:49:17,254 - INFO - Paper trading initialized with 10.0 SOL balance
+2025-04-29 17:49:17,255 - INFO - Paper trading module initialized
+2025-04-29 17:49:17,255 - INFO - Paper trading enabled: True
+2025-04-29 17:49:17,255 - INFO - Paper SOL balance: 10.0 SOL
+2025-04-29 17:49:17,255 - INFO - Paper buy amount: 1.0 SOL
+2025-04-29 17:50:12,876 - INFO - Configuration saved to .env file
+2025-04-29 17:50:12,887 - INFO - Paper trading settings saved to .env file
+2025-04-29 17:50:12,902 - INFO - Paper trading settings saved to .env file
+2025-04-29 17:50:12,907 - INFO - Configuration saved to .env file
+2025-04-29 17:50:12,910 - INFO - Paper trading settings saved to .env file
+2025-04-29 17:50:25,221 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 17:50:25,245 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 17:50:25,588 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 17:50:25,625 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 17:50:25,868 - INFO - Telegram client initialized
+2025-04-29 17:50:25,871 - INFO - Fetching available groups and channels...
+2025-04-29 17:50:26,133 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 17:50:26,134 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 17:50:26,134 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 17:50:26,135 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 17:50:26,135 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-29 17:50:26,135 - INFO - 6. Coby Calls * (ID: -1002339192565)
+2025-04-29 17:50:26,135 - INFO - 7. Geppetto calls (ID: -1002381042005)
+2025-04-29 17:50:26,135 - INFO - 8. Quantum Courses (ID: -1002328886823)
+2025-04-29 17:50:26,136 - INFO - 9. Redemption Academy (ID: -1001442804317)
+2025-04-29 17:50:26,137 - INFO - 10. Shinobi Signals (ID: -1001861246649)
+2025-04-29 17:50:26,137 - INFO - 11. bro (ID: -1002612941020)
+2025-04-29 17:50:26,138 - INFO - 12. underdogs degen (ID: -1002297631019)
+2025-04-29 17:50:26,138 - INFO - 13. Sams Alpha (ID: -1002127539393)
+2025-04-29 17:50:26,139 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 17:50:26,139 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 17:50:26,140 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 17:50:26,140 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 17:50:26,141 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 17:50:26,141 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 17:50:26,142 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 17:50:32,201 - INFO - 
+Please select 5 chats to monitor:
+2025-04-29 17:50:33,351 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 17:50:34,051 - INFO - Added: Underdog Calls Private (ID: -1002209371269)
+2025-04-29 17:50:34,701 - INFO - Added: Underdog Calls (ID: -1002478633703)
+2025-04-29 17:50:35,389 - INFO - Added: Gambles * MadApes (ID: -1001758611100)
+2025-04-29 17:50:36,089 - INFO - Added: Geppetto degen* (ID: -1002480481360)
+2025-04-29 17:50:36,092 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 17:50:36,092 - INFO - Set up message handler for chat: Underdog Calls Private
+2025-04-29 17:50:36,092 - INFO - Set up message handler for chat: Underdog Calls
+2025-04-29 17:50:36,093 - INFO - Set up message handler for chat: Gambles * MadApes
+2025-04-29 17:50:36,093 - INFO - Set up message handler for chat: Geppetto degen*
+2025-04-29 17:50:36,093 - INFO - Now monitoring 5 chats:
+2025-04-29 17:50:36,094 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 17:50:36,094 - INFO - • Underdog Calls Private (ID: -1002209371269)
+2025-04-29 17:50:36,094 - INFO - • Underdog Calls (ID: -1002478633703)
+2025-04-29 17:50:36,095 - INFO - • Gambles * MadApes (ID: -1001758611100)
+2025-04-29 17:50:36,095 - INFO - • Geppetto degen* (ID: -1002480481360)
+2025-04-29 17:51:15,890 - INFO - Measuring RPC response delay...
+2025-04-29 17:51:15,993 - ERROR - Error getting quote: 400 Client Error: Bad Request for url: https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=So11111111111111111111111111111111111111112&amount=10000&slippageBps=50&priorityFee=auto&onlyDirectRoutes=true
+2025-04-29 17:51:15,994 - INFO - RPC delay measured: 103.46ms (avg: 103.46ms)
+2025-04-29 17:51:15,995 - INFO - PAPER BUYING TOKEN
+2025-04-29 17:51:15,995 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:51:15,996 - INFO - Amount: 0.05 SOL
+2025-04-29 17:51:15,997 - INFO - Slippage: 1.0%
+2025-04-29 17:51:15,997 - INFO - ------------------------------
+2025-04-29 17:51:32,788 - INFO - New Message in Gambles * MadApes at 2025-04-29 17:51:32
+2025-04-29 17:51:32,788 - INFO - Message: 3x plus, 112k * now 105k
+$MVG *
+2025-04-29 17:51:32,789 - INFO - No token addresses found in message.
+2025-04-29 17:52:06,695 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-29 17:52:06,695 - ERROR - Error in menu: 
+2025-04-29 17:52:06,697 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-29 17:52:06,698 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-04-29 17:57:23,473 - INFO - Failed to load SSL library: <class 'OSError'> (no library called "ssl" found)
+2025-04-29 17:57:23,475 - INFO - cryptg module not installed and libssl not found, falling back to (slower) Python encryption
+2025-04-29 17:57:23,950 - INFO - Paper trading initialized with 10.0 SOL balance
+2025-04-29 17:57:23,951 - INFO - Paper trading module initialized
+2025-04-29 17:57:23,951 - INFO - Paper trading enabled: True
+2025-04-29 17:57:23,951 - INFO - Paper SOL balance: 10.0 SOL
+2025-04-29 17:57:23,951 - INFO - Paper buy amount: 1.0 SOL
+2025-04-29 17:57:34,084 - INFO - Solana clients initialized with primary RPC: https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165
+2025-04-29 17:57:34,089 - INFO - Loaded existing wallet: kHXSeorgjgHqSMoFcKgUyJ55ef37TDbwRTHdGtn9Arm
+2025-04-29 17:57:34,192 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-04-29 17:57:34,225 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-04-29 17:57:34,440 - INFO - Telegram client initialized
+2025-04-29 17:57:34,442 - INFO - Fetching available groups and channels...
+2025-04-29 17:57:34,716 - INFO - 1. Underdogs degen (ID: -1002277274250)
+2025-04-29 17:57:34,717 - INFO - 2. Underdog Calls Private (ID: -1002209371269)
+2025-04-29 17:57:34,717 - INFO - 3. Underdog Calls (ID: -1002478633703)
+2025-04-29 17:57:34,717 - INFO - 4. Gambles * MadApes (ID: -1001758611100)
+2025-04-29 17:57:34,718 - INFO - 5. Geppetto degen* (ID: -1002480481360)
+2025-04-29 17:57:34,718 - INFO - 6. Coby Calls * (ID: -1002339192565)
+2025-04-29 17:57:34,719 - INFO - 7. Geppetto calls (ID: -1002381042005)
+2025-04-29 17:57:34,719 - INFO - 8. Quantum Courses (ID: -1002328886823)
+2025-04-29 17:57:34,719 - INFO - 9. Redemption Academy (ID: -1001442804317)
+2025-04-29 17:57:34,720 - INFO - 10. Shinobi Signals (ID: -1001861246649)
+2025-04-29 17:57:34,720 - INFO - 11. bro (ID: -1002612941020)
+2025-04-29 17:57:34,720 - INFO - 12. underdogs degen (ID: -1002297631019)
+2025-04-29 17:57:34,721 - INFO - 13. Sams Alpha (ID: -1002127539393)
+2025-04-29 17:57:34,721 - INFO - 14. Exposing SKids (ID: -1002586454573)
+2025-04-29 17:57:34,722 - INFO - 15. Exposing SKids (ID: -1002434103215)
+2025-04-29 17:57:34,722 - INFO - 16. Mercury Solana Calls (ID: -1002024643864)
+2025-04-29 17:57:34,723 - INFO - 17. Trading With UJ* (ID: -1002403542315)
+2025-04-29 17:57:34,723 - INFO - 18. Unique Side. (ID: -1002440656833)
+2025-04-29 17:57:34,723 - INFO - 19. BT Newbie Club (ID: -1002052886706)
+2025-04-29 17:57:34,724 - INFO - 20. BobTMM (ID: -1002447939682)
+2025-04-29 17:57:37,510 - INFO - 
+Please select 1 chats to monitor:
+2025-04-29 17:57:38,080 - INFO - Added: Underdogs degen (ID: -1002277274250)
+2025-04-29 17:57:38,084 - INFO - Set up message handler for chat: Underdogs degen
+2025-04-29 17:57:38,084 - INFO - Now monitoring 1 chats:
+2025-04-29 17:57:38,085 - INFO - • Underdogs degen (ID: -1002277274250)
+2025-04-29 17:58:03,217 - INFO - BUYING TOKEN
+2025-04-29 17:58:03,217 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:58:03,218 - INFO - Amount: 0.005 SOL
+2025-04-29 17:58:03,218 - INFO - Slippage: 1.5%
+2025-04-29 17:58:03,218 - INFO - Priority Fee: auto
+2025-04-29 17:58:03,218 - INFO - ------------------------------
+2025-04-29 17:58:03,219 - INFO - Jupiter integration initialized with wallet and RPC references
+2025-04-29 17:58:03,219 - INFO - Getting price quote... (Attempt 1/3, Slippage: 1.50%)
+2025-04-29 17:58:03,301 - INFO - Quote API response time: 81.98ms
+2025-04-29 17:58:03,301 - INFO - Quote: 0.005000 -> 0.000056
+2025-04-29 17:58:03,302 - INFO - Impact: 0.0%
+2025-04-29 17:58:03,302 - INFO - Preparing transaction...
+2025-04-29 17:58:03,402 - INFO - Transaction prep time: 99.56ms
+2025-04-29 17:58:03,403 - INFO - Signing...
+2025-04-29 17:58:03,411 - INFO - Transaction signing time: 8.78ms
+2025-04-29 17:58:03,411 - INFO - Sending to network...
+2025-04-29 17:58:03,490 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-29 17:58:03,501 - INFO - Transaction send time: 88.98ms
+2025-04-29 17:58:03,502 - INFO - Sent: hYHHUXatfcLmFoSJAdesxJ9KuGGm1Wr5icRQcd9P1h7KZZU6vUZk36E7H3u5cDh6XmpHFn1PKkG9qDxd7ZQKd6V
+2025-04-29 17:58:03,502 - INFO - CONFIRMING TRANSACTION...
+2025-04-29 17:58:03,503 - INFO - ID: hYHHUXatfcLmFoSJAdesxJ9KuGGm1Wr5icRQcd9P1h7KZZU6vUZk36E7H3u5cDh6XmpHFn1PKkG9qDxd7ZQKd6V
+2025-04-29 17:58:03,503 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-29 17:58:04,329 - INFO - Waiting 0.06s before next check...
+2025-04-29 17:58:04,393 - INFO - Check 2/20... (Elapsed: 0.89s)
+2025-04-29 17:58:04,925 - INFO - Waiting 0.09s before next check...
+2025-04-29 17:58:05,012 - INFO - Check 3/20... (Elapsed: 1.51s)
+2025-04-29 17:58:05,381 - INFO - Waiting 0.09s before next check...
+2025-04-29 17:58:05,472 - INFO - Check 4/20... (Elapsed: 1.97s)
+2025-04-29 17:58:05,818 - INFO - Waiting 0.08s before next check...
+2025-04-29 17:58:05,904 - INFO - Check 5/20... (Elapsed: 2.40s)
+2025-04-29 17:58:06,285 - INFO - Waiting 0.15s before next check...
+2025-04-29 17:58:06,433 - INFO - Check 6/20... (Elapsed: 2.93s)
+2025-04-29 17:58:06,762 - INFO - Waiting 0.12s before next check...
+2025-04-29 17:58:06,885 - INFO - Check 7/20... (Elapsed: 3.38s)
+2025-04-29 17:58:07,274 - INFO - Waiting 0.16s before next check...
+2025-04-29 17:58:07,432 - INFO - Check 8/20... (Elapsed: 3.93s)
+2025-04-29 17:58:07,764 - INFO - Waiting 0.25s before next check...
+2025-04-29 17:58:08,018 - INFO - Check 9/20... (Elapsed: 4.52s)
+2025-04-29 17:58:08,351 - INFO - Waiting 0.24s before next check...
+2025-04-29 17:58:08,590 - INFO - Check 10/20... (Elapsed: 5.09s)
+2025-04-29 17:58:08,926 - INFO - Waiting 0.27s before next check...
+2025-04-29 17:58:09,196 - INFO - Check 11/20... (Elapsed: 5.69s)
+2025-04-29 17:58:12,435 - INFO - Waiting 0.42s before next check...
+2025-04-29 17:58:12,854 - INFO - Check 12/20... (Elapsed: 9.35s)
+2025-04-29 17:58:18,930 - INFO - Waiting 0.52s before next check...
+2025-04-29 17:58:19,448 - INFO - Check 13/20... (Elapsed: 15.94s)
+2025-04-29 17:58:19,735 - INFO - Waiting 0.53s before next check...
+2025-04-29 17:58:20,268 - INFO - Check 14/20... (Elapsed: 16.76s)
+2025-04-29 17:58:20,493 - INFO - Waiting 0.77s before next check...
+2025-04-29 17:58:21,265 - INFO - Check 15/20... (Elapsed: 17.76s)
+2025-04-29 17:58:21,574 - INFO - Waiting 0.88s before next check...
+2025-04-29 17:58:22,457 - INFO - Check 16/20... (Elapsed: 18.95s)
+2025-04-29 17:58:22,830 - INFO - Waiting 1.00s before next check...
+2025-04-29 17:58:23,828 - INFO - Check 17/20... (Elapsed: 20.32s)
+2025-04-29 17:58:24,199 - INFO - Waiting 1.24s before next check...
+2025-04-29 17:58:25,439 - INFO - Check 18/20... (Elapsed: 21.94s)
+2025-04-29 17:58:25,800 - INFO - Waiting 1.11s before next check...
+2025-04-29 17:58:26,906 - INFO - Check 19/20... (Elapsed: 23.40s)
+2025-04-29 17:58:27,237 - INFO - Waiting 1.44s before next check...
+2025-04-29 17:58:28,681 - INFO - Check 20/20... (Elapsed: 25.18s)
+2025-04-29 17:58:29,047 - WARNING - Confirmation timeout after 20 attempts (25.54s)
+2025-04-29 17:58:29,048 - WARNING - Swap may have failed or is still pending.
+2025-04-29 17:58:29,048 - INFO - Retrying with increased parameters...
+2025-04-29 17:58:30,549 - INFO - Getting price quote... (Attempt 2/3, Slippage: 3.38%)
+2025-04-29 17:58:30,597 - INFO - Quote API response time: 45.87ms
+2025-04-29 17:58:30,599 - INFO - Quote: 0.005000 -> 0.000056
+2025-04-29 17:58:30,600 - INFO - Impact: 0.0010168908430615723%
+2025-04-29 17:58:30,600 - INFO - Preparing transaction...
+2025-04-29 17:58:30,686 - INFO - Transaction prep time: 84.45ms
+2025-04-29 17:58:30,688 - INFO - Signing...
+2025-04-29 17:58:30,689 - INFO - Transaction signing time: 0.51ms
+2025-04-29 17:58:30,689 - INFO - Sending to network...
+2025-04-29 17:58:30,806 - INFO - HTTP Request: POST https://mainnet.helius-rpc.com/?api-key=50eb47e3-3216-4468-ace4-4d335a9a1165 "HTTP/1.1 200 OK"
+2025-04-29 17:58:30,809 - INFO - Transaction send time: 118.80ms
+2025-04-29 17:58:30,810 - INFO - Sent: 2hJBafgPPdU7wrxats67cT84yGecPXYM3kEWxG87WJwRV4m93JyzargaBMt7DTJLKt3YL1DcZf863gn3yfbqSxRr
+2025-04-29 17:58:30,811 - INFO - CONFIRMING TRANSACTION...
+2025-04-29 17:58:30,811 - INFO - ID: 2hJBafgPPdU7wrxats67cT84yGecPXYM3kEWxG87WJwRV4m93JyzargaBMt7DTJLKt3YL1DcZf863gn3yfbqSxRr
+2025-04-29 17:58:30,812 - INFO - Check 1/20... (Elapsed: 0.00s)
+2025-04-29 17:58:31,213 - INFO - Waiting 0.06s before next check...
+2025-04-29 17:58:31,277 - INFO - Check 2/20... (Elapsed: 0.47s)
+2025-04-29 17:58:31,644 - INFO - Waiting 0.08s before next check...
+2025-04-29 17:58:31,727 - INFO - Check 3/20... (Elapsed: 0.92s)
+2025-04-29 17:58:32,102 - INFO - Waiting 0.08s before next check...
+2025-04-29 17:58:32,180 - INFO - Check 4/20... (Elapsed: 1.37s)
+2025-04-29 17:58:32,545 - INFO - Waiting 0.09s before next check...
+2025-04-29 17:58:32,642 - INFO - Check 5/20... (Elapsed: 1.83s)
+2025-04-29 17:58:33,031 - INFO - Waiting 0.10s before next check...
+2025-04-29 17:58:33,132 - INFO - Check 6/20... (Elapsed: 2.32s)
+2025-04-29 17:58:33,574 - INFO - Waiting 0.18s before next check...
+2025-04-29 17:58:33,754 - INFO - Check 7/20... (Elapsed: 2.94s)
+2025-04-29 17:58:34,103 - INFO - Waiting 0.21s before next check...
+2025-04-29 17:58:34,311 - INFO - Check 8/20... (Elapsed: 3.50s)
+2025-04-29 17:58:34,683 - INFO - Waiting 0.21s before next check...
+2025-04-29 17:58:34,899 - INFO - Check 9/20... (Elapsed: 4.09s)
+2025-04-29 17:58:35,303 - INFO - Waiting 0.30s before next check...
+2025-04-29 17:58:35,608 - INFO - Check 10/20... (Elapsed: 4.80s)
+2025-04-29 17:58:35,931 - INFO - Waiting 0.35s before next check...
+2025-04-29 17:58:36,285 - INFO - Check 11/20... (Elapsed: 5.47s)
+2025-04-29 17:58:36,614 - INFO - Waiting 0.38s before next check...
+2025-04-29 17:58:36,998 - INFO - Check 12/20... (Elapsed: 6.19s)
+2025-04-29 17:58:37,915 - INFO - Waiting 0.37s before next check...
+2025-04-29 17:58:38,288 - INFO - Check 13/20... (Elapsed: 7.48s)
+2025-04-29 17:58:38,647 - INFO - Waiting 0.43s before next check...
+2025-04-29 17:58:39,081 - INFO - Check 14/20... (Elapsed: 8.27s)
+2025-04-29 17:58:42,300 - INFO - Waiting 0.65s before next check...
+2025-04-29 17:58:42,948 - INFO - Check 15/20... (Elapsed: 12.14s)
+2025-04-29 17:58:49,039 - INFO - Waiting 0.90s before next check...
+2025-04-29 17:58:49,939 - INFO - Check 16/20... (Elapsed: 19.13s)
+2025-04-29 17:58:50,187 - INFO - Waiting 1.08s before next check...
+2025-04-29 17:58:51,269 - INFO - Check 17/20... (Elapsed: 20.46s)
+2025-04-29 17:58:51,701 - INFO - Waiting 1.05s before next check...
+2025-04-29 17:58:52,752 - INFO - Check 18/20... (Elapsed: 21.94s)
+2025-04-29 17:58:53,138 - INFO - Waiting 1.57s before next check...
+2025-04-29 17:58:54,708 - INFO - Check 19/20... (Elapsed: 23.90s)
+2025-04-29 17:58:54,963 - INFO - ==================================================
+2025-04-29 17:58:54,963 - INFO - TRANSACTION CONFIRMED!
+2025-04-29 17:58:54,964 - INFO - Confirmation time: 24.152 seconds
+2025-04-29 17:58:54,964 - INFO - Time: 17:58:54.964
+2025-04-29 17:58:54,964 - INFO - ==================================================
+2025-04-29 17:58:54,964 - INFO - SWAP SUCCESSFUL! 0.005000 -> 0.000056
+2025-04-29 17:58:54,965 - INFO - Swap transaction confirmed. Waiting for tokens to appear in wallet...
+2025-04-29 17:58:54,965 - INFO - Paper trading enabled. Executing simulated buy for 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:58:54,973 - INFO - Measuring RPC response delay...
+2025-04-29 17:58:55,048 - ERROR - Error getting quote: 400 Client Error: Bad Request for url: https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=So11111111111111111111111111111111111111112&amount=10000&slippageBps=50&priorityFee=auto&onlyDirectRoutes=true
+2025-04-29 17:58:55,051 - INFO - RPC delay measured: 78.08ms (avg: 78.08ms)
+2025-04-29 17:58:55,054 - INFO - PAPER BUYING TOKEN
+2025-04-29 17:58:55,059 - INFO - Token: 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:58:55,062 - INFO - Amount: 1.0 SOL
+2025-04-29 17:58:55,063 - INFO - Slippage: 1.0%
+2025-04-29 17:58:55,064 - INFO - ------------------------------
+2025-04-29 17:59:13,259 - INFO - Received signal to stop. Shutting down gracefully...
+2025-04-29 17:59:13,264 - ERROR - Error in menu: 
+2025-04-29 17:59:13,290 - INFO - Found 1 token accounts for 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:59:13,322 - INFO - Completed price tracking for 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
+2025-04-29 17:59:13,342 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-04-29 17:59:13,357 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
