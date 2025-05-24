@@ -5,6 +5,7 @@ Optimized Jito MEV routing implementation for faster token swaps on Solana
 - Adds adaptive tipping based on network congestion
 - Enhances parallel submission strategies
 - Improves error handling and retry logic
+- Now uses Raydium V4 for direct AMM swaps
 """
 import base64
 import time
@@ -25,6 +26,9 @@ import concurrent.futures
 from config import Config, logger
 from solanaa import payer_keypair, solana_client, confirm_transaction, confirm_transaction_async
 
+# Import Raydium functions instead of Jupiter
+from raydium_v4 import get_quote_raydium, execute_raydium_swap
+
 # Thread pool for concurrent operations
 _thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=8)
 
@@ -41,9 +45,6 @@ TIP_LEVELS = {
     "high": 1000000,      # 0.001 SOL
     "extreme": 5000000    # 0.005 SOL
 }
-
-# Jupiter API URL (still needed for quotes)
-JUPITER_API_URL = "https://quote-api.jup.ag/v6"
 
 # Cache for network congestion level (updated every minute)
 network_status = {
@@ -181,44 +182,31 @@ def handle_rate_limit(retry_count: int, max_retries: int, error: Optional[str] =
     finally:
         loop.close()
 
-# ================ JUPITER API FOR QUOTES ================
+# ================ RAYDIUM INTEGRATION FOR QUOTES ================
 async def get_quote_async(input_mint: str, output_mint: str, amount: int, slippage_bps: int = 50, retry_count: int = 0) -> Optional[Dict]:
     """
-    Get a price quote from Jupiter with rate limit handling
-    We still use Jupiter for quotes as they have the best price discovery
+    Get a price quote from Raydium with rate limit handling
     """
-    await rate_limit_delay("jupiter_quote")
+    await rate_limit_delay("raydium_quote")
     
     try:
-        session = await get_async_session()
+        # Use Raydium for quotes
+        quote = await get_quote_raydium(input_mint, output_mint, amount)
         
-        url = f"{JUPITER_API_URL}/quote"
-        params = {
-            'inputMint': input_mint,
-            'outputMint': output_mint,
-            'amount': amount,
-            'slippageBps': slippage_bps,
-            'onlyDirectRoutes': 'true'  # Use direct routes when possible for speed
-        }
-        
-        async with session.get(url, params=params, timeout=5) as response:
-            # Handle rate limiting explicitly
-            if response.status == 429:
-                should_retry, new_retry = await handle_rate_limit_async(
-                    retry_count, 
-                    Config.MAX_RATE_LIMIT_RETRIES, 
-                    "Jupiter quote API"
-                )
-                if should_retry:
-                    return await get_quote_async(input_mint, output_mint, amount, slippage_bps, new_retry)
-                return None
+        if quote:
+            # Convert slippage from bps to percentage if needed
+            quote['slippageBps'] = slippage_bps
+            return quote
             
-            # Check for success and return data
-            if response.status == 200:
-                return await response.json()
-                
-            # Handle other errors
-            response.raise_for_status()
+        # Handle retries if quote failed
+        if retry_count < Config.MAX_RATE_LIMIT_RETRIES:
+            should_retry, new_retry = await handle_rate_limit_async(
+                retry_count, 
+                Config.MAX_RATE_LIMIT_RETRIES, 
+                "Raydium quote failed"
+            )
+            if should_retry:
+                return await get_quote_async(input_mint, output_mint, amount, slippage_bps, new_retry)
     except Exception as e:
         logger.error(f"Error getting quote: {e}")
         
@@ -242,67 +230,7 @@ def get_quote(input_mint: str, output_mint: str, amount: int, slippage_bps: int 
     finally:
         loop.close()
 
-# ================ JITO TRANSACTION PREPARATION ================
-async def get_swap_tx_async(quote_response: Dict, retry_count: int = 0) -> Optional[Dict]:
-    """
-    Get a swap transaction from Jupiter but prepare it for Jito routing
-    """
-    await rate_limit_delay("jupiter_swap")
-    
-    try:
-        session = await get_async_session()
-        user_public_key = str(payer_keypair.pubkey())
-        url = f"{JUPITER_API_URL}/swap"
-        
-        # Prepare payload for transaction
-        payload = {
-            "userPublicKey": user_public_key,
-            "wrapAndUnwrapSol": True,
-            "quoteResponse": quote_response,
-            "computeUnitPriceMicroLamports": 1  # Set to 1 as we'll use Jito tips instead
-        }
-        
-        async with session.post(url, json=payload, timeout=5) as response:
-            # Handle rate limiting explicitly
-            if response.status == 429:
-                should_retry, new_retry = await handle_rate_limit_async(
-                    retry_count, 
-                    Config.MAX_RATE_LIMIT_RETRIES,
-                    "Jupiter swap API"
-                )
-                if should_retry:
-                    return await get_swap_tx_async(quote_response, new_retry)
-                return None
-                    
-            # Check for success and return data
-            if response.status == 200:
-                return await response.json()
-            
-            # Handle other errors
-            response.raise_for_status()
-    except Exception as e:
-        logger.error(f"Error getting swap transaction: {e}")
-        
-        # Check if it's worth retrying
-        if retry_count < Config.MAX_RATE_LIMIT_RETRIES and ("429" in str(e) or "timeout" in str(e).lower()):
-            should_retry, new_retry = await handle_rate_limit_async(
-                retry_count, 
-                Config.MAX_RATE_LIMIT_RETRIES,
-                str(e)
-            )
-            if should_retry:
-                return await get_swap_tx_async(quote_response, new_retry)
-    
-    return None
-
-def get_swap_tx(quote_response: Dict, retry_count: int = 0) -> Optional[Dict]:
-    """Synchronous wrapper for async swap transaction function"""
-    loop = asyncio.new_event_loop()
-    try:
-        return loop.run_until_complete(get_swap_tx_async(quote_response, retry_count))
-    finally:
-        loop.close()
-
+# ================ JITO TRANSACTION SUBMISSION ================
 async def prepare_jito_transaction(base64_tx: str) -> Optional[VersionedTransaction]:
     """
     Prepare a Jito-optimized transaction from base64 encoded transaction
@@ -458,152 +386,25 @@ def submit_transaction_parallel(signed_tx: VersionedTransaction, tip_amount: int
 
 # ================ MAIN SWAP EXECUTION FUNCTION ================
 async def execute_swap_async(input_mint: str, output_mint: str, amount_in: int, slippage_percent: float = 1, 
-                      retry_count: int = 0, max_retries: Optional[int] = None) -> Tuple[bool, Optional[float]]:
+                           retry_count: int = 0, max_retries: Optional[int] = None) -> Tuple[bool, Optional[float]]:
     """
-    Execute a token swap with Jito optimization for faster inclusion
+    Execute swap using Raydium V4 with Jito optimization
     """
-    # Use default max retries if not specified
     max_retries = max_retries or Config.MAX_SWAP_RETRIES
-    
-    # Increase slippage slightly on retries
-    adjusted_slippage = slippage_percent * (1 + (retry_count * 0.5))
-    slippage_bps = int(adjusted_slippage * 100)
-    
-    # Get quote
-    logger.info(f"Getting price quote... (Attempt {retry_count+1}/{max_retries+1}, Slippage: {adjusted_slippage:.2f}%)")
-    start_time = time.time()
-    quote = await get_quote_async(input_mint, output_mint, amount_in, slippage_bps)
-    quote_time = time.time() - start_time
-    logger.info(f"Quote API response time: {quote_time*1000:.2f}ms")
-    
-    if not quote:
-        logger.error("Failed to get quote.")
-        if retry_count < max_retries:
-            logger.info(f"Retrying with increased slippage...")
-            await asyncio.sleep(1)
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent, retry_count + 1, max_retries)
-        return False, None
-    
-    in_amount = amount_in / 1e9
-    out_amount = float(quote.get('outAmount', 0)) / 1e9
-    logger.info(f"Quote: {in_amount:.6f} -> {out_amount:.6f}")
-    
-    # Check for extremely low output or high price impact
-    price_impact = float(quote.get('priceImpactPct', 0))
-    logger.info(f"Impact: {price_impact}%")
-    
-    # Warn about high price impact
-    if price_impact > Config.PRICE_IMPACT_WARNING:
-        logger.warning(f"HIGH PRICE IMPACT DETECTED: {price_impact}%")
-        if price_impact > Config.PRICE_IMPACT_ABORT:
-            logger.error(f"EXTREMELY HIGH PRICE IMPACT: {price_impact}%. Aborting for safety.")
-            return False, None
-    
-    # Check for minimum output value (0.005 SOL for sells to SOL)
-    if output_mint == Config.SOL and out_amount < 0.005:
-        logger.warning(f"Output amount too small: {out_amount:.6f} SOL")
-        
-        # If it's a sell and amount is too small, try selling a smaller percentage
-        if input_mint != Config.SOL and retry_count < max_retries:
-            reduced_amount = int(amount_in * 0.8)  # Try 80% of the amount
-            if reduced_amount > 0:
-                logger.info(f"Retrying with reduced amount: {reduced_amount / amount_in * 100:.0f}% of original")
-                return await execute_swap_async(input_mint, output_mint, reduced_amount, slippage_percent, retry_count + 1, max_retries)
-        
-        if retry_count >= max_retries:
-            logger.error("Max retries reached with insufficient output. Transaction not viable.")
-            return False, None
-    
-    # Get swap transaction
-    logger.info("Preparing transaction...")
-    start_time = time.time()
-    swap_tx = await get_swap_tx_async(quote)
-    tx_prep_time = time.time() - start_time
-    logger.info(f"Transaction prep time: {tx_prep_time*1000:.2f}ms")
-    
-    if not swap_tx:
-        logger.error("Failed to get swap transaction.")
-        if retry_count < max_retries:
-            logger.info("Retrying transaction preparation...")
-            await asyncio.sleep(1)
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent, retry_count + 1, max_retries)
-        return False, None
     
     # Calculate tip amount based on network conditions
     tip_amount = calculate_tip_amount()
     logger.info(f"Using Jito tip: {tip_amount} lamports ({tip_amount/1e9:.9f} SOL)")
     
-    # Prepare and sign transaction
-    logger.info("Preparing Jito-optimized transaction...")
-    start_time = time.time()
-    raw_tx = await asyncio.to_thread(prepare_jito_transaction, swap_tx['swapTransaction'])
-    prep_time = time.time() - start_time
-    logger.info(f"Jito prep time: {prep_time*1000:.2f}ms")
-    
-    if not raw_tx:
-        logger.error("Failed to prepare Jito transaction.")
-        if retry_count < max_retries:
-            logger.info("Retrying transaction preparation...")
-            await asyncio.sleep(1)
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent, retry_count + 1, max_retries)
-        return False, None
-    
-    # Sign transaction
-    logger.info("Signing...")
-    start_time = time.time()
-    signed_tx = await sign_transaction_async(raw_tx)
-    sign_time = time.time() - start_time
-    logger.info(f"Transaction signing time: {sign_time*1000:.2f}ms")
-    
-    if not signed_tx:
-        logger.error("Failed to sign transaction.")
-        if retry_count < max_retries:
-            logger.info("Retrying after signing error...")
-            await asyncio.sleep(1)
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent, retry_count + 1, max_retries)
-        return False, None
-    
-    # Submit transaction (parallel to both Jito and regular RPC)
-    logger.info("Submitting to Jito and backup RPC in parallel...")
-    start_time = time.time()
-    tx_sig = await submit_transaction_parallel_async(signed_tx, tip_amount)
-    submit_time = time.time() - start_time
-    logger.info(f"Submission time: {submit_time*1000:.2f}ms")
-    
-    if not tx_sig:
-        logger.error("Failed to submit transaction.")
-        if retry_count < max_retries:
-            logger.info("Retrying after submission error...")
-            await asyncio.sleep(1)
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent, retry_count + 1, max_retries)
-        return False, None
-    
-    logger.info(f"Transaction submitted in {submit_time*1000:.2f}ms: {tx_sig}")
-    
-    # Confirm transaction
-    logger.info("Waiting for confirmation...")
-    confirmed = await confirm_transaction_async(tx_sig)
-    
-    if confirmed:
-        logger.info(f"SWAP SUCCESSFUL! {in_amount:.6f} -> {out_amount:.6f}")
-        # For buys, we care about the price of the token in SOL
-        if input_mint == Config.SOL:
-            # This is a buy, so calculate price per token
-            price_per_token = in_amount / out_amount if out_amount > 0 else 0
-            return True, price_per_token
-        else:
-            # This is a sell, return the SOL amount received
-            return True, out_amount
-    else:
-        logger.warning("Swap may have failed or is still pending.")
-        
-        # Retry with higher slippage if not confirmed
-        if retry_count < max_retries:
-            logger.info(f"Retrying with increased parameters...")
-            await asyncio.sleep(1.5)  # Wait longer between retries
-            return await execute_swap_async(input_mint, output_mint, amount_in, slippage_percent * 1.5, retry_count + 1, max_retries)
-        
-        return False, None
+    # Use Raydium directly with Jito enabled
+    return await execute_raydium_swap(
+        input_mint, 
+        output_mint, 
+        amount_in, 
+        slippage_percent, 
+        use_jito=True,
+        priority_fee=tip_amount
+    )
 
 def execute_swap(input_mint: str, output_mint: str, amount_in: int, slippage_percent: float = 1, 
                retry_count: int = 0, max_retries: Optional[int] = None) -> Tuple[bool, Optional[float]]:

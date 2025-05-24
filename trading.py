@@ -18,7 +18,8 @@ from rich.table import Table
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TimeElapsedColumn
 from rich.panel import Panel
 from rich.text import Text
-from jupiter import execute_swap, execute_swap_async, get_quote_async
+# UPDATED: Import from raydium instead of jupiter
+from raydium import execute_swap, execute_swap_async, get_quote_async
 from config import Config, logger, stop_event
 from solanaa import get_token_balance_async, get_token_balance, get_sol_balance
 from database import db  # Import our new database module
@@ -917,8 +918,11 @@ async def check_token_price(token_address):
         # Use a small amount for the quote (1% of balance)
         test_amount = max(1, int(lamports * 0.01))
         
+        # UPDATED: Import get_quote from raydium
+        from raydium import get_quote
+        
         # Get a quote for selling that amount
-        quote = execute_swap.get_quote(token_address, Config.SOL, test_amount)
+        quote = get_quote(token_address, Config.SOL, test_amount)
         if not quote:
             return None
         
@@ -1067,10 +1071,11 @@ def show_active_tracking():
     
     console.print(table)
 
-# Async check token price in Jupiter
+# Async check token price in Raydium
 async def check_token_price_in_jupiter(token_address):
-    """Get the current price of a token by querying Jupiter API directly"""
-    from jupiter import get_quote
+    """Get the current price of a token by querying Raydium API directly"""
+    # UPDATED: Import from raydium instead of jupiter
+    from raydium import get_quote
 
     try:
         # Get token balance
@@ -1096,5 +1101,5 @@ async def check_token_price_in_jupiter(token_address):
         
         return None
     except Exception as e:
-        logger.error(f"Error checking price in Jupiter: {e}")
+        logger.error(f"Error checking price in Raydium: {e}")
         return None

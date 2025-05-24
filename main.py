@@ -62,8 +62,12 @@ from trading import start_price_tracking, show_active_tracking
 from config import change_buy_amount, change_profit_target, change_stop_loss
 from config import change_trailing_stop, change_exit_strategy, change_priority_fee_settings
 from config import configure_all_parameters, stop_event
-from jupiter import execute_swap, execute_swap_async
-from database import db  # Import database module
+
+# Import Raydium module instead of Jupiter
+import raydium_v4
+
+# Import database module
+from database import db
 
 # Import paper trading module
 from paper_trading import PaperConfig, initialize_paper_trading
@@ -74,6 +78,9 @@ from paper_trading import show_paper_portfolio
 
 # Initialize rich console for beautiful output
 console = Console()
+
+# Global variables for Raydium integration
+raydium_initialized = False
 
 # ================ HEARTBEAT & MONITORING FUNCTIONS ================
 async def heartbeat_monitor():
@@ -163,6 +170,25 @@ async def check_rpc_health() -> dict:
     
     return health
 
+# ================ RAYDIUM INITIALIZATION ================
+def initialize_raydium_module(solana_client, payer_keypair):
+    """Initialize Raydium V4 module with app dependencies"""
+    global raydium_initialized
+    
+    # Import jito's submit function if available
+    try:
+        from jito import submit_to_jito
+        jito_fn = submit_to_jito
+        logger.info("Jito integration available for Raydium")
+    except ImportError:
+        jito_fn = None
+        logger.warning("Jito module not available, Raydium will use direct submission")
+    
+    # Initialize Raydium
+    raydium_v4.initialize_raydium(solana_client, payer_keypair, Config, jito_fn)
+    raydium_initialized = True
+    logger.info("Raydium V4 integration initialized successfully")
+
 # ================ UI HELPER FUNCTIONS ================
 def print_header(title, char="=", style="bold blue"):
     """Print a nice formatted header with title"""
@@ -242,6 +268,11 @@ def display_current_settings():
     table.add_row("Order Splitting", f"{'[green]Enabled[/]' if Config.USE_ORDER_SPLITTING else '[red]Disabled[/]'}")
     table.add_row("Volume Monitoring", f"{'[green]Enabled[/]' if Config.ENABLE_VOLUME_MONITORING else '[red]Disabled[/]'}")
     table.add_row("WebSocket", f"{'[green]Enabled[/]' if Config.ENABLE_WEBSOCKET else '[red]Disabled[/]'}")
+    
+    # DEX Integration
+    table.add_row("[bold]DEX Integration[/]", "")
+    table.add_row("Swap Engine", "[bold magenta]Raydium V4 CLMM[/] (Direct AMM)")
+    table.add_row("Raydium Initialized", f"{'[green]Yes[/]' if raydium_initialized else '[red]No[/]'}")
     
     # RPC Performance
     table.add_row("[bold]RPC Performance[/]", "")
@@ -948,6 +979,10 @@ async def initial_setup():
         if not payer_keypair:
             return None, None, None, None
     
+    # Initialize Raydium after we have solana_client and payer_keypair
+    with console.status("[bold green]Initializing Raydium V4 integration...[/]"):
+        initialize_raydium_module(solana_client, payer_keypair)
+    
     # Configure Telegram
     with console.status("[bold green]Configuring Telegram...[/]"):
         telegram_client, chat_list = await configure_telegram()
@@ -1027,6 +1062,10 @@ async def quick_start():
         console.print(f"[bold red]Error initializing wallet: {e}[/bold red]")
         return None, None, None, None
     
+    # Initialize Raydium after we have solana_client and payer_keypair
+    with console.status("[bold green]Initializing Raydium V4 integration...[/]"):
+        initialize_raydium_module(solana_client, payer_keypair)
+    
     # Check SOL balance - Use direct call instead of async
     console.print("[bold]Checking balance...[/bold]")
     sol_balance = get_sol_balance()  # Now uses our new non-async version
@@ -1053,7 +1092,7 @@ async def quick_start():
             return None, None, None, None
     
     # Initialize Telegram client
-    console.print("[bold]Connecting to Telegram...[/bold]")
+    console.print("[bold]Connecting to Telegram...[/]")
     with console.status("[cyan]Initializing Telegram client...[/]"):
         telegram_client = await initialize_telegram()
     
@@ -1498,9 +1537,10 @@ async def main():
         "[bold cyan]Features optimized transaction execution with Jito MEV protection\n"
         "[bold cyan]Advanced exit strategies with trailing stop support\n"
         "[bold magenta]Now with Paper Trading for risk-free testing & practice![/]\n"
-        "[bold yellow]Enhanced with liquidity checks, sentiment analysis & database tracking![/]",
+        "[bold yellow]Enhanced with liquidity checks, sentiment analysis & database tracking![/]\n"
+        "[bold green]Powered by Raydium V4 CLMM for ultra-fast direct swaps![/]",
         title="[bold green]ENHANCED SOLANA TRADING BOT[/]", 
-        subtitle="[bold yellow]v2.0.0[/]",
+        subtitle="[bold yellow]v2.0.0 - Raydium Edition[/]",
         border_style="green",
         width=80,
         padding=(1, 2)
@@ -1609,6 +1649,10 @@ async def main():
         f"• Min Liquidity: ${Config.MIN_LIQUIDITY_USD}\n"
         f"• Honeypot Check: {'Enabled' if Config.CHECK_HONEYPOT else 'Disabled'}\n"
         f"• Sentiment Analysis: Enabled\n\n"
+        
+        f"[bold]DEX Integration:[/]\n"
+        f"• Swap Engine: [bold magenta]Raydium V4 CLMM[/]\n"
+        f"• MEV Protection: Jito Integration\n\n"
         
         f"[bold]RPC Performance:[/] {PaperConfig.avg_measured_delay:.2f} ms response time",
         title="[bold green]MONITORING STARTED[/]", 
